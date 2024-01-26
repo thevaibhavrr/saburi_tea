@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --gay-main-bg-color: #e9eaef;
+}
+ 
+.heading-text{
+  text-align: center;
+  font-size: 26px;
+  font-family: Georgia;
+  text-transform: uppercase;
+}
+.text-icon-bottom{
+  width: 155px;
+  margin-top: -30px;
+}

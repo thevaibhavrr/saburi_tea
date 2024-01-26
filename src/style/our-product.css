@@ -1,0 +1,93 @@
+.main-slider-div {
+  padding: 14px;
+  position: relative;
+  margin: 0px 10px;
+}
+.main-slider-section-start {
+  background: var(--gay-main-bg-color);
+  /* margin-bottom: 10px; */
+  padding-bottom: 10px;
+  
+}
+.our-product-text {
+  font-size: 20px;
+  font-family: Georgia;
+}
+.our-product-slider-start{
+    /* margin-top: 20px; */
+}
+
+.mySwiper {
+  /* width: 100%; */
+  /* margin: 0px 10px; */
+}
+
+.mySwiper .swiper-slide {
+  /* text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px; */
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  /* border-radius: 8px; */
+}
+
+.append-buttons {
+  /* text-align: center; */
+  /* margin-top: 20px; */
+}
+
+.append-buttons button {
+  /* display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px; */
+}
+
+.swiper-button-next {
+  /* color: black !important; */
+}
+.swiper-button-prev {
+  /* color: black !important; */
+}
+.swiper-button-next:after {
+  /* font-size: 20px !important; */
+}
+.swiper-button-prev:after {
+  /* font-size: 20px !important; */
+}
+.prev-next-buttons {
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.prev-button {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.next-button {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.text-buttm-icon {
+  /* width: 500px; */
+}
+.text-style-icon-div {
+  /* display: flex; */
+  /* justify-content: center; */
+}

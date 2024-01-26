@@ -1,0 +1,26 @@
+
+.live-event-main{
+    background: #e0fbd0 ;
+
+  }
+
+  .live-event-section .mySwiper .swiper-slide img {
+    display: block;
+    /* width: 164%; */
+    /* height: 53%; */
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid black;
+  }
+  .next-button-live-event{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    
+  }
+  .prev-button-live-event{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    
+  }
