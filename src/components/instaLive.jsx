@@ -34,7 +34,7 @@ export default function InstaLive() {
       swiperRef.slideNext();
     }
   };
-
+ 
   return (
     <>
       <div className="main-slider-section-start">
@@ -66,16 +66,16 @@ export default function InstaLive() {
             <Swiper
               onSwiper={setSwiperRef}
               onSlideChange={handleSlideChange}
-              slidesPerView={3}
+              slidesPerView={2}
               centeredSlides={true}
-              spaceBetween={0}
+              spaceBetween={30}
               initialSlide={2}
               pagination={{
                 type: "fraction",
               }}
               //   navigation={false}
               //   modules={[Navigation]}
-              className="mySwiper"
+              className="mySwiper mySwiper-for-instagram"
             >
               {images.map((image, index) => (
                 <SwiperSlide key={index}>

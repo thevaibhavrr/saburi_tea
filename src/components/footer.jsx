@@ -28,7 +28,13 @@ function Footer() {
           <div className="company-details-links-main-div">
             {/* about */}
             <div>
-              <ul>
+              <ul 
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="700"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              >
                 <h5>About</h5>
                 <li>History</li>
                 <li>Our Team</li>
@@ -39,7 +45,13 @@ function Footer() {
             </div>
             {/* service */}
             <div>
-              <ul>
+              <ul
+               data-aos="fade-right"
+               data-aos-offset="200"
+               data-aos-delay="1000"
+               data-aos-duration="1500"
+               data-aos-easing="ease-in-out"
+              >
                 <h5>Service</h5>
                 <li>How to Order</li>
                 <li>Order Status</li>
@@ -49,7 +61,13 @@ function Footer() {
             </div>
             {/* others */}
             <div>
-              <ul>
+              <ul
+               data-aos="fade-right"
+               data-aos-offset="200"
+               data-aos-delay="1300"
+               data-aos-duration="1800"
+               data-aos-easing="ease-in-out"
+              >
                 <h5> Others</h5>
                 <li>Contact Us</li>
                 <li>Help</li>

@@ -41,15 +41,15 @@ export default function OurProduct() {
             data-aos="flip-up"
             data-aos-offset="200"
             //  data-aos-delay="200"
-            data-aos-duration="500"
+            data-aos-duration="900"
           >
             Our products
           </h3>
-          <div className="text-center"
+          <div className="text-center" 
            data-aos="flip-down"
            data-aos-offset="200"
            //  data-aos-delay="200"
-           data-aos-duration="500"
+           data-aos-duration="900"
           >
             <img
               src={TextBootomIcon}
