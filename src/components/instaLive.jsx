@@ -126,6 +126,7 @@ export default function InstaLive() {
           </div>
         </div>
       </div>
+      {/* <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/CApEgmblFLP/embed/captioned/?cr=1&amp;v=14&amp;wp=326&amp;rd=http%3A%2F%2Flocalhost&amp;rp=%2Fmadhvik%2F#%7B%22ci%22%3A0%2C%22os%22%3A1082.6999999999534%2C%22ls%22%3A38.39999999990687%2C%22le%22%3A364.30000000004657%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="300" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" ></iframe> */}
     </>
   );
 }

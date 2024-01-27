@@ -62,11 +62,11 @@ function Footer() {
             {/* others */}
             <div>
               <ul
-               data-aos="fade-right"
-               data-aos-offset="200"
-               data-aos-delay="1300"
-               data-aos-duration="1800"
-               data-aos-easing="ease-in-out"
+              //  data-aos="fade-right"
+              //  data-aos-offset="200"
+              //  data-aos-delay="1300"
+              //  data-aos-duration="1800"
+              //  data-aos-easing="ease-in-out"
               >
                 <h5> Others</h5>
                 <li>Contact Us</li>
