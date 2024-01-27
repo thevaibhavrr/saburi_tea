@@ -1,7 +1,6 @@
 import React from "react";
 import "../style/footer.css";
 import Icon from "../images/icon.png";
-import bgImage from "../images/footer image.png";
 import socialMedia from "../images/social media.png";
 
 function Footer() {

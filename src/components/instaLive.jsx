@@ -1,12 +1,9 @@
 import "../style/instaLive.css";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import image1 from "../images/SABURI ELAICHI 10RS.png";
-import image2 from "../images/SABURI CLOVE 10RS.png";
-import image3 from "../images/Saburi Ajwain 10 RS.png";
 import TextBootomIcon from "../images/Shape.png";
 
 export default function InstaLive() {
@@ -42,8 +39,22 @@ export default function InstaLive() {
     <>
       <div className="main-slider-section-start">
         <div className="main-slider-div">
-          <h3 className="heading-text">Inst Live Feeds</h3>
-          <div className="text-center">
+          <h3
+            className="heading-text"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            //  data-aos-delay="200"
+            data-aos-duration="500"
+          >
+            Inst Live Feeds
+          </h3>
+          <div
+            className="text-center"
+            data-aos="flip-down"
+            data-aos-offset="200"
+            //  data-aos-delay="200"
+            data-aos-duration="500"
+          >
             <img
               src={TextBootomIcon}
               alt="style"

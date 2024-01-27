@@ -1,31 +1,25 @@
 import "../style/live-event.css";
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import image1 from "../images/SABURI ELAICHI 10RS.png";
-import image2 from "../images/SABURI CLOVE 10RS.png";
-import image3 from "../images/Saburi Ajwain 10 RS.png";
-import TextBootomIcon from "../images/Shape.png";
+import image1 from "../images/Live event1.png";
+import image2 from "../images/Live event2.png";
 
 // import { Pagination, Navigation } from "swiper/modules";
 
 export default function LiveEvent() {
   const [swiperRef, setSwiperRef] = useState(null);
-  const [activeIndex, setActiveIndex] = useState(2);
+  // const [activeIndex, setActiveIndex] = useState(2);
 
-  const handleSlideChange = () => {
-    if (swiperRef) {
-      setActiveIndex(swiperRef.activeIndex);
-    }
-  };
-  const s1 =
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnLS6TCGxy6w8J_Jr8tjIsPjrhvwni7UlNmYilbouqk0Zn-vy7HnVukzGSWdgCP_1jy0&usqp=CAU";
-  const s2 =
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlthTZSnpupyK9pX0qxnzAwsEbqmZQj0NVuxSILOHuVeGMGIiTSVI3yoNZ5m7nJTl-gh0&usqp=CAU";
+  // const handleSlideChange = () => {
+  //   if (swiperRef) {
+  //     setActiveIndex(swiperRef.activeIndex);
+  //   }
+  // };
 
-  const images = [s1, s2, s1, s2, s1, s2, s1, s2];
+  const images = [image1, image2, image1, image2, image1, image2, image1, image2];
 
   const handlePrevClick = () => {
     if (swiperRef) {
@@ -45,14 +39,14 @@ export default function LiveEvent() {
         <div className="main-slider-div ">
           <div className="our-product-slider-start live-event-section ">
             <div className="mb-4">
-              <h3 className="text-center text-uppercase our-product-text">
+              <h3 className="text-center text-uppercase our-product-text Live-event-text">
                 Live events
               </h3>
             </div>
             <div>
               <Swiper
                 onSwiper={setSwiperRef}
-                onSlideChange={handleSlideChange}
+                // onSlideChange={handleSlideChange}
                 slidesPerView={2}
                 centeredSlides={true}
                 initialSlide={2}
@@ -69,6 +63,7 @@ export default function LiveEvent() {
                     <img
                       src={image}
                       alt="images"
+                      className="live-events-images"
                       // style={{
                       //   transform: `scale(${activeIndex === index ? 1 : 0.8})`,
                       //   transition: "transform 0.3s ease-in-out",

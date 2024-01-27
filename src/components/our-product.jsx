@@ -1,5 +1,5 @@
 import "../style/our-product.css";
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -37,10 +37,20 @@ export default function OurProduct() {
     <>
       <div className="main-slider-section-start">
         <div className="main-slider-div">
-          <h3 className="heading-text">
+          <h3 className="heading-text"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            //  data-aos-delay="200"
+            data-aos-duration="500"
+          >
             Our products
           </h3>
-          <div className="text-center">
+          <div className="text-center"
+           data-aos="flip-down"
+           data-aos-offset="200"
+           //  data-aos-delay="200"
+           data-aos-duration="500"
+          >
             <img
               src={TextBootomIcon}
               alt="style"

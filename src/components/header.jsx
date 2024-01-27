@@ -23,7 +23,6 @@ function Header() {
               data-aos-duration="5000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
               data-aos-anchor-placement="top-center"
             >
               <div className="">

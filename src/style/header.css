@@ -38,13 +38,13 @@
   border-bottom: 1px solid #46464636;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 500px) {
   .header-logo {
     width: 150px;
     height: auto;
   }
 }
-@media (min-width: 427px) and (max-width: 769px) {
+@media (min-width: 500px) and (max-width: 769px) {
   .header-logo {
     width: 200px;
     height: auto;

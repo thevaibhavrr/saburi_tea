@@ -1,5 +1,5 @@
 import "../style/instaLive.css";
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -9,15 +9,15 @@ import TextBootomIcon from "../images/Shape.png";
 
 export default function Testimonial() {
   const [swiperRef, setSwiperRef] = useState(null);
-  const [activeIndex, setActiveIndex] = useState(2);
+  // const [activeIndex, setActiveIndex] = useState(2);
 
-  const handleSlideChange = () => {
-    if (swiperRef) {
-      setActiveIndex(swiperRef.activeIndex);
-    }
-  };
+  // const handleSlideChange = () => {
+  //   if (swiperRef) {
+  //     setActiveIndex(swiperRef.activeIndex);
+  //   }
+  // };
 
-    const images = [image1, image1, image1,image1,image1,image1];
+  const images = [image1, image1, image1, image1, image1, image1];
 
   const handlePrevClick = () => {
     if (swiperRef) {
@@ -47,8 +47,8 @@ export default function Testimonial() {
           <div className="our-product-slider-start ">
             <Swiper
               onSwiper={setSwiperRef}
-              onSlideChange={handleSlideChange}
-              slidesPerView={3}
+              // onSlideChange={handleSlideChange}
+              slidesPerView={1.6}
               initialSlide={2}
               centeredSlides={true}
               spaceBetween={20}

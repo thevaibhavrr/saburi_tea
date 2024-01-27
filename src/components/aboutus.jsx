@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/aboutus.css";
-import image1 from "../images/Leaves.png";
 import image2 from "../images/Red Shape.png";
 import image3 from "../images/Shweta Tiwari.png";
 import TextBootomIcon from "../images/Shape.png";
@@ -12,8 +11,22 @@ function AboutUs() {
         {/* content */}
         <div className="main-text-content-div-about">
           <div className="second-text-content-div-about">
-            <h3 className="heading-text">About US</h3>
-            <div className="text-center">
+            <h3
+              className="heading-text"
+              data-aos="flip-up"
+              data-aos-offset="200"
+              //  data-aos-delay="200"
+              data-aos-duration="500"
+            >
+              About US
+            </h3>
+            <div
+              className="text-center"
+              data-aos="flip-down"
+              data-aos-offset="200"
+              //  data-aos-delay="200"
+              data-aos-duration="500"
+            >
               <img
                 src={TextBootomIcon}
                 alt="style"
@@ -21,7 +34,13 @@ function AboutUs() {
               />
             </div>
             {/* text */}
-            <p className="about-use-paregraph">
+            <p
+              className="about-use-paregraph"
+              data-aos="zoom-out-down"
+              data-aos-offset="200"
+              //  data-aos-delay="200"
+              data-aos-duration="700"
+            >
               In May 2002, Radha Krishna made its entry in the branded Atta
               segment and within a short period of time became the number one
               branded packaged atta across the country. ning.n May 2002, Radha
@@ -44,16 +63,40 @@ function AboutUs() {
               alt="tea"
               srcset=""
               className="red-shape-about-us"
+              data-aos="flip-left"
+              data-aos-offset="200"
+              //  data-aos-delay="200"
+              data-aos-duration="1000"
             />
-            <div className="about-us-girl-image-div">
+            <div
+              className="about-us-girl-image-div"
+              data-aos="zoom-out-down"
+              data-aos-offset="200"
+              //  data-aos-delay="200"
+              data-aos-duration="1500"
+            >
               <img src={image3} alt="tea" srcset="" className="girl-image" />
             </div>
           </div>
         </div>
         {/* our collection text */}
         <div className="our-collection-about-page  text-center">
-          <h3 className="heading-text">Our Collection</h3>
-          <div className="text-style-icon-div">
+          <h3
+            className="heading-text"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            //  data-aos-delay="200"
+            data-aos-duration="1700"
+          >
+            Our Collection
+          </h3>
+          <div
+            className="text-style-icon-div"
+            data-aos="flip-down"
+            data-aos-offset="200"
+            //  data-aos-delay="200"
+            data-aos-duration="1700"
+          >
             <img
               src={TextBootomIcon}
               alt="style"

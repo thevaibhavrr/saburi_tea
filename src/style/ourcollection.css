@@ -1,16 +1,16 @@
-/* .main-our-product-section {
+.main-our-product-section {
   background-image: url("../images/Leaf.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
   position: relative;
-} */
+}
 
 /* .main-our-product-section {
   position: relative;
 } */
-
+/* 
 .main-our-product-section::before {
   content: "";
   position: absolute;
@@ -19,7 +19,7 @@
   bottom: 0;
   left: 0;
   background-color: rgba(64, 177, 64, 0.2); 
-  z-index: 1; 
+  z-index: 0.2; 
   background-position: center;
 
 }
@@ -30,27 +30,26 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
+  z-index: 0.1; 
   height: auto;
   position: relative;
-}
-
-
-
-
-
-
-
-
-
-
-
-
+} */
 
 
 .tea-images {
-  width: 170px;
+  width: 500px;
+  height: auto;
 }
-
+.tea-images-left {
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: black;
+}
+.tea-images-right {
+  border-width: 1px 0px 1px 1px;
+  border-style: solid;
+  border-color: black;
+}
 .main-card-div {
   display: flex;
   flex-direction: column;
@@ -61,8 +60,8 @@
 .our-collection-cards {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 20px;
+  /* justify-content: space-between; */
+  gap: 30px;
   margin: 50px 0px;
 }
 
@@ -74,37 +73,77 @@
 
 .our-collection-card-text {
   font-family: cursive;
+  font-size: 20px;
 }
 
 .right-side-our-product-div {
-  min-height: 350px;
+  min-height: 560px;
   border-width: 2px 0px 2px 2px;
   border-style: solid;
   border-color: black;
   z-index: -1;
-  min-width: 100px;
+  min-width: 300px;
   position: absolute;
-  top: 50%;
+  top: 52%;
   right: 0;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
 }
 .left-side-our-product-div {
-  min-height: 900px;
+  min-height: 1650px;
   border-width: 2px 2px 2px 0px;
   border-style: solid;
   border-color: black;
   z-index: -1;
-  min-width: 250px;
+  min-width: 450px; 
   position: absolute;
-  top: 53%;
+  top: 50%;
   left: 0;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
 }
+
+@media (max-width: 550px) {
+  .tea-images {
+    width: 260px;
+    height: auto;
+  }
+  
+.right-side-our-product-div {
+  min-height: 350px;
+  min-width: 100px;
+  top: 50%;
+}
+.left-side-our-product-div {
+  min-height: 950px;
+  min-width: 220px;
+  top: 53%; 
+}
+.our-collection-cards {
+  gap: 20px;
+}
+}
+
+@media (min-width: 552px) 
+/* and (max-width: 769px) */
+ {
+  .tea-images {
+    width: 390px;
+    height: auto;
+  }
+  .left-side-our-product-div {
+    min-height: 1300px;
+    top: 51%;
+    min-width: 350px;
+  }
+  .right-side-our-product-div {
+    min-height: 470px;
+    min-width: 150px;
+    top: 50%;
+  }
+  .our-collection-cards {
+    gap: 50px;
+  }
+  .our-collection-card-text {
+    font-size: 40px;
+  }
+}
+
