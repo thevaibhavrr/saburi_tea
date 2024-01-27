@@ -35,6 +35,18 @@
 li {
   list-style: none;
 }
+.designed-details{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: monospace;
+
+}
+.company-details-links-main-div div ul li,h5 {
+  list-style: disc;
+  font-family: monospace;
+}
+
 @media (min-width: 427px) and (max-width: 769px) {
   .company-details-links-main-div {
     gap: 5px;
@@ -74,5 +86,15 @@ li {
   }
   .main-footer-div {
     padding: 0px;
+  }
+  .designed-details{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .designed-details div{
+    padding: 6px;
   }
 }

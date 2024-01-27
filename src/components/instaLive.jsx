@@ -87,6 +87,7 @@ export default function InstaLive() {
                       transition: "transform 0.3s ease-in-out",
                     }}
                   />
+                  {/* <iframe src='https://widgets.sociablekit.com/instagram-hashtag-feed/iframe/25355350' frameborder='0' width='100%' height='1000'></iframe> */}
                 </SwiperSlide>
               ))}
             </Swiper>
