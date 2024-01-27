@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../style/header.css";
-import mainIcon from "../images/icon.png";
+import mainIcon from "../images/S-logo.png";
 
 function Header() {
   const [showVerticalNavbar, setShowVerticalNavbar] = useState(false);

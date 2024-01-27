@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/footer.css";
-import Icon from "../images/icon.png";
+import Icon from "../images/S-logo.png";
 import socialMedia from "../images/social media.png";
 
 function Footer() {
@@ -48,8 +48,8 @@ function Footer() {
               <ul
                data-aos="fade-right"
                data-aos-offset="200"
-               data-aos-delay="1000"
-               data-aos-duration="1500"
+               data-aos-delay="800"
+               data-aos-duration="1000"
                data-aos-easing="ease-in-out"
               >
                 <h5>Service</h5>
