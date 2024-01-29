@@ -111,4 +111,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* align-items: center; */
+  color: white;
+}
+.our-collection-icons{
+  filter: invert(1);
 }

@@ -87,7 +87,6 @@ function AboutUs() {
       </div>
         <div className=" text-center second-about-us-image" >
             {/* <img src={NewImage2} alt="style" className="w-100 h-50 img-fluid" /> */}
-          </div>
         {/* our collection text */}
         <div className="our-collection-about-page  text-center">
           <h3
@@ -109,11 +108,13 @@ function AboutUs() {
             <img
               src={TextBootomIcon}
               alt="style"
-              className="text-icon-bottom"
+              className="text-icon-bottom our-collection-icons"
             />
           </div>
          
         </div>
+        </div>
+
     </>
   );
 }
