@@ -61,11 +61,11 @@ export default function LiveEvent() {
                       src={image}
                       alt="images"
                       className="live-events-images"
-                      data-aos="fade-up"
-                      data-aos-offset="100"
-                      data-aos-delay="400"
-                      data-aos-duration="800"
-                      data-aos-anchor-placement="top-center"
+                      // data-aos="fade-up"
+                      // data-aos-offset="100"
+                      // data-aos-delay="400"
+                      // data-aos-duration="800"
+                      // data-aos-anchor-placement="top-center"
                     />
                   </SwiperSlide>
                 ))}

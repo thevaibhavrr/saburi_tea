@@ -82,11 +82,11 @@ export default function OurProduct() {
                       transform: `scale(${activeIndex === index ? 1 : 0.8})`,
                       transition: "transform 0.3s ease-in-out",
                     }}
-                    data-aos="zoom-out"
-                    data-aos-offset="400"
-                    data-aos-delay="400"
-                    data-aos-duration="1000"
-                    data-aos-anchor-placement="top-center"
+                    // data-aos="zoom-out"
+                    // data-aos-offset="400"
+                    // data-aos-delay="400"
+                    // data-aos-duration="1000"
+                    // data-aos-anchor-placement="top-center"
                   />
                 </SwiperSlide>
               ))}
