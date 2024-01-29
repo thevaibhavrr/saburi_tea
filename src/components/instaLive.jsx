@@ -35,7 +35,7 @@ export default function InstaLive() {
       swiperRef.slideNext();
     }
   };
- 
+  
   return (
     <>
       <div className="main-slider-section-start">
@@ -43,9 +43,7 @@ export default function InstaLive() {
           <h3
             className="heading-text"
             data-aos="flip-up"
-            data-aos-offset="200"
-            //  data-aos-delay="200"
-            data-aos-duration="500"
+            data-aos-offset="200"            data-aos-duration="500"
           >
             Inst Live Feeds
           </h3>
@@ -53,7 +51,6 @@ export default function InstaLive() {
             className="text-center"
             data-aos="flip-down"
             data-aos-offset="200"
-            //  data-aos-delay="200"
             data-aos-duration="500"
           >
             <img
@@ -79,7 +76,13 @@ export default function InstaLive() {
               className="mySwiper mySwiper-for-instagram"
             >
               {images.map((image, index) => (
-                <SwiperSlide key={index}>
+                <SwiperSlide key={index}
+                data-aos="fade-down"
+                data-aos-offset="400"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                data-aos-anchor-placement="top-center"
+                >
                   <img
                     src={image}
                     alt=""
@@ -87,6 +90,11 @@ export default function InstaLive() {
                       transform: `scale(${activeIndex === index ? 1 : 0.8})`,
                       transition: "transform 0.3s ease-in-out",
                     }}
+                    data-aos="fade-down"
+                    data-aos-offset="100"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                    data-aos-anchor-placement="top-center"
                   />
                   {/* <iframe src='https://widgets.sociablekit.com/instagram-hashtag-feed/iframe/25355350' frameborder='0' width='100%' height='1000'></iframe> */}
                 </SwiperSlide>

@@ -7,19 +7,19 @@ import "swiper/css/navigation";
 import image1 from "../images/Live event1.png";
 import image2 from "../images/Live event2.png";
 
-// import { Pagination, Navigation } from "swiper/modules";
-
 export default function LiveEvent() {
   const [swiperRef, setSwiperRef] = useState(null);
-  // const [activeIndex, setActiveIndex] = useState(2);
 
-  // const handleSlideChange = () => {
-  //   if (swiperRef) {
-  //     setActiveIndex(swiperRef.activeIndex);
-  //   }
-  // };
-
-  const images = [image1, image2, image1, image2, image1, image2, image1, image2];
+  const images = [
+    image1,
+    image2,
+    image1,
+    image2,
+    image1,
+    image2,
+    image1,
+    image2,
+  ];
 
   const handlePrevClick = () => {
     if (swiperRef) {
@@ -46,7 +46,6 @@ export default function LiveEvent() {
             <div>
               <Swiper
                 onSwiper={setSwiperRef}
-                // onSlideChange={handleSlideChange}
                 slidesPerView={2}
                 centeredSlides={true}
                 initialSlide={2}
@@ -54,8 +53,6 @@ export default function LiveEvent() {
                 pagination={{
                   type: "fraction",
                 }}
-                //   navigation={false}
-                //   modules={[Navigation]}
                 className="mySwiper"
               >
                 {images.map((image, index) => (
@@ -64,10 +61,11 @@ export default function LiveEvent() {
                       src={image}
                       alt="images"
                       className="live-events-images"
-                      // style={{
-                      //   transform: `scale(${activeIndex === index ? 1 : 0.8})`,
-                      //   transition: "transform 0.3s ease-in-out",
-                      // }}
+                      data-aos="fade-up"
+                      data-aos-offset="100"
+                      data-aos-delay="400"
+                      data-aos-duration="800"
+                      data-aos-anchor-placement="top-center"
                     />
                   </SwiperSlide>
                 ))}

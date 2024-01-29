@@ -5,6 +5,7 @@
   width: 100%;
   height: auto;
   position: relative;
+  background-attachment: fixed;
 }
 
 /* .main-our-product-section {
