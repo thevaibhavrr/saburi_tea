@@ -3,9 +3,9 @@ import "../style/aboutus.css";
 import image2 from "../images/Red Shape.png";
 import image3 from "../images/Shweta Tiwari.png";
 import TextBootomIcon from "../images/Shape.png";
-import NewImage1 from "../images/New_1.jpg";
+// import NewImage1 from "../images/New_1.jpg";
 import NewImage2 from "../images/new_2.jpg";
-import NewImage3 from "../images/new_3.jpg";
+// import NewImage3 from "../images/new_3.jpg";
 
 function AboutUs() {
   return (
