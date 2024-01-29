@@ -4,7 +4,7 @@ import image2 from "../images/Red Shape.png";
 import image3 from "../images/Shweta Tiwari.png";
 import TextBootomIcon from "../images/Shape.png";
 // import NewImage1 from "../images/New_1.jpg";
-import NewImage2 from "../images/about_new_image.png";
+import NewImage2 from "../images/new_about_2.png";
 // import NewImage3 from "../images/new_3.jpg";
 
 function AboutUs() {
@@ -82,10 +82,12 @@ function AboutUs() {
             </div>
             
           </div>
-          <div className=" text-center" >
-            <img src={NewImage2} alt="style" className="w-100 h-50 img-fluid" />
-          </div>
+         
         </div>
+      </div>
+        <div className=" text-center second-about-us-image" >
+            {/* <img src={NewImage2} alt="style" className="w-100 h-50 img-fluid" /> */}
+          </div>
         {/* our collection text */}
         <div className="our-collection-about-page  text-center">
           <h3
@@ -112,7 +114,6 @@ function AboutUs() {
           </div>
          
         </div>
-      </div>
     </>
   );
 }
