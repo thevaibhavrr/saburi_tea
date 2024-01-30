@@ -1,33 +1,32 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import "../style/aboutus.css";
 import image2 from "../images/Red Shape.png";
 import image3 from "../images/Shweta Tiwari.png";
 import TextBootomIcon from "../images/Shape.png";
 // import NewImage1 from "../images/New_1.jpg";
-import NewImage2 from "../images/new_about_2.png";
+// import NewImage2 from "../images/new_about_2.png";
 // import NewImage3 from "../images/new_3.jpg";
 
 function AboutUs() {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  // const [scrollPosition, setScrollPosition] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      requestAnimationFrame(() => {
-        setScrollPosition(window.scrollY);
-      });
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     requestAnimationFrame(() => {
+  //       setScrollPosition(window.scrollY);
+  //     });
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
-  const calculateZoom = () => {
-    // Adjust the multiplier based on the desired zoom effect
-    return `scale(${1 + scrollPosition * 0.0005})`;
-  };
+  // const calculateZoom = () => {
+  //   return `scale(${1 + scrollPosition * 0.0005})`;
+  // };
   return (
     <>
       <div className="main-about-page">
