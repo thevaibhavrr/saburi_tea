@@ -31,8 +31,8 @@ function Footer() {
               <ul
                 data-aos="fade-right"
                 data-aos-offset="200"
-                data-aos-delay="700"
-                data-aos-duration="1000"
+                data-aos-delay="600"
+                data-aos-duration="800"
                 data-aos-easing="ease-in-out"
               >
                 <h5>About</h5>
@@ -48,8 +48,8 @@ function Footer() {
               <ul
                 data-aos="fade-right"
                 data-aos-offset="200"
-                data-aos-delay="800"
-                data-aos-duration="1000"
+                data-aos-delay="600"
+                data-aos-duration="800"
                 data-aos-easing="ease-in-out"
               >
                 <h5>Service</h5>
