@@ -7,16 +7,32 @@
   transform: scale(1.2);
 }
 
+/* .back-ground-tea-image {
+  background-image: url("../images/Homepage Banner.png");
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;  
+} */
 .back-ground-tea-image {
   background-image: url("../images/Homepage Banner.png");
   width: 100%;
   height: 100vh;
   background-size: 100% 100%;
-  /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+
+  /* WebKit browsers (Chrome, Safari) */
+  -webkit-background-size: 100% 100%;
+  -webkit-background-attachment: fixed;
+
+  /* Standard syntax */
+  background-size: cover;
 }
+
 
 .vertical-navbar {
   position: absolute;
