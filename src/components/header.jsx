@@ -51,12 +51,11 @@ function Header() {
             {showVerticalNavbar && (
               <div className="vertical-navbar">
                 <ul>
-                  <li>Home</li>
-                  <li>About Us</li>
-                  <li>Our Collection</li>
-                  <li>Our Product</li>
-                  <li>Live Events</li>
-                  <li>Testimonials</li>
+                  <li>HOME</li>
+                  <li>ABOUT US</li>
+                  <li>PRODUCT</li>
+                  <li>E-CATALOG</li> 
+                  <li>Event</li>
                   <li>Contact US</li>
                 </ul>
               </div>
