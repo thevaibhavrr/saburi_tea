@@ -12,7 +12,9 @@ function AboutUs() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollPosition(window.scrollY);
+      requestAnimationFrame(() => {
+        setScrollPosition(window.scrollY);
+      });
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -22,9 +24,9 @@ function AboutUs() {
     };
   }, []);
 
-  const calculateRotation = () => {
-    // Adjust the multiplier based on the desired rotation speed
-    return `rotate(${scrollPosition * 0.3}deg)`;
+  const calculateZoom = () => {
+    // Adjust the multiplier based on the desired zoom effect
+    return `scale(${1 + scrollPosition * 0.0005})`;
   };
   return (
     <>
@@ -90,7 +92,6 @@ function AboutUs() {
               data-aos-offset="200"
               //  data-aos-delay="200"
               data-aos-duration="1000"
-              style={{ transform: calculateRotation() , transition: "transform 0.9s ease-out" }}
             />
             <div
               className="about-us-girl-image-div"
