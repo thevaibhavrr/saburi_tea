@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "../style/aboutus.css";
 import image2 from "../images/Red Shape.png";
 import image3 from "../images/Shweta Tiwari.png";
@@ -8,6 +8,24 @@ import NewImage2 from "../images/new_about_2.png";
 // import NewImage3 from "../images/new_3.jpg";
 
 function AboutUs() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const calculateRotation = () => {
+    // Adjust the multiplier based on the desired rotation speed
+    return `rotate(${scrollPosition * 0.3}deg)`;
+  };
   return (
     <>
       <div className="main-about-page">
@@ -60,7 +78,9 @@ function AboutUs() {
         </div>
         {/* images */}
         <div className="about-us-images">
-          <div className="about-us-red-angel-image">
+          <div className="about-us-red-angel-image"
+          
+          >
             <img
               src={image2}
               alt="tea"
@@ -70,6 +90,7 @@ function AboutUs() {
               data-aos-offset="200"
               //  data-aos-delay="200"
               data-aos-duration="1000"
+              style={{ transform: calculateRotation() , transition: "transform 0.9s ease-out" }}
             />
             <div
               className="about-us-girl-image-div"
@@ -93,7 +114,7 @@ function AboutUs() {
             className="heading-text"
             data-aos="flip-up"
             data-aos-offset="200"
-            //  data-aos-delay="200"
+            //  data-aos-delay="200" 
             data-aos-duration="1700"
           >
             Our Collection
