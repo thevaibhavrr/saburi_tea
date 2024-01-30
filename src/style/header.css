@@ -19,8 +19,9 @@
 .back-ground-tea-image {
   /* background-image: url("../images/Homepage Banner.png"); */
   background-image: url("../images/TEA\ SMOKE\ 2.gif");
+  /* background-image: url("../images/TEA\ SMOKE\ 3.mp4"); */
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   /* background-size: 100% 100%; */
   background-size: cover;
   background-repeat: no-repeat;
