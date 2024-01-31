@@ -1,11 +1,12 @@
 import "../style/instaLive.css";
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import image1 from "../images/Testimonial.png";
 import TextBootomIcon from "../images/Shape.png";
+import UserImage from "../images/User Img.png";
 
 export default function Testimonial() {
   const [swiperRef, setSwiperRef] = useState(null);
@@ -58,15 +59,19 @@ export default function Testimonial() {
               className="mySwiper"
             >
               {images.map((image, index) => (
-                <SwiperSlide key={index}>
-                  <img
-                    src={image}
-                    alt=""
-                    // style={{
-                    //   transform: `scale(${activeIndex === index ? 1 : 0.8})`,
-                    //   transition: "transform 0.3s ease-in-out",
-                    // }}
-                  />
+                <SwiperSlide key={index} style={{ position: "relative" }}>
+                  <img src={image} alt="" className="testiminal_image" />
+                  <div className="testiminal_user_image_div">
+                    {/* <img
+                      src={UserImage}
+                      alt="user_image"
+                      className="testiminal_user_image"
+                    /> */}
+                    <div className="user_info">
+                      <div className="w-100 user_info-message" >The greatest glory in living lies not in never falling, but in rising every time we fall  </div>
+                      <h6>Vaibhv Rathore</h6>
+                    </div>
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
