@@ -29,10 +29,14 @@
 @media (max-width: 500px) {
   .user_info-message {
     font-size: 10px;
+  margin-bottom: 15px;
+
   }
 }
 @media (min-width: 501px) and (max-width: 769px) {
     .user_info-message {
         font-size: 14px;
+  margin-bottom: 20px;
+
       }
 }
