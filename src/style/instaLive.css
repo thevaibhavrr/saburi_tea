@@ -1,27 +1,38 @@
 .testiminal_image {
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .testiminal_user_image_div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; /* Center the child elements */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center the child elements */
 }
 
 .testiminal_user_image {
-  filter:grayscale(100%);
+  filter: grayscale(100%);
   padding: 10px;
 }
 
 /* .user_info {
     margin-top: 10px; 
 } */
-.user_info-message{
-    /* font-size: 20px; */
-    /* font-weight: bold; */
-    margin-bottom: 5px;
+.user_info-message {
+  /* font-size: 20px; */
+  /* font-weight: bold; */
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+@media (max-width: 500px) {
+  .user_info-message {
     font-size: 10px;
+  }
+}
+@media (min-width: 501px) and (max-width: 769px) {
+    .user_info-message {
+        font-size: 14px;
+      }
 }
