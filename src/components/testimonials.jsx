@@ -18,7 +18,27 @@ export default function Testimonial() {
   //   }
   // };
 
-  const images = [image1, image1, image1, image1, image1, image1];
+  // const images = [image1, image1, image1, image1, image1, image1];
+  const images = [
+    {
+      src: image1,
+      message:
+        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+      name: "Vaibhv Rathore",
+    },
+    {
+      src: image1,
+      message:
+        "Spice up your life with Saburi. Exceptional flavors and quality. My dishes have never tasted this better!",
+        name: "Vaibhv Rathore",
+    },
+    {
+      src: image1,
+      message:
+        "Soya Chunks by Saburi: My secret to protein-packed, delicious meals. The best addition to my kitchen pantry!",
+      name: "Vaibhv Rathore",
+    },
+  ];
 
   const handlePrevClick = () => {
     if (swiperRef) {
@@ -50,7 +70,7 @@ export default function Testimonial() {
               onSwiper={setSwiperRef}
               // onSlideChange={handleSlideChange}
               slidesPerView={1.6}
-              initialSlide={2}
+              initialSlide={1}
               centeredSlides={true}
               spaceBetween={20}
               pagination={{
@@ -58,18 +78,35 @@ export default function Testimonial() {
               }}
               className="mySwiper"
             >
-              {images.map((image, index) => (
+              {/* {images.map((image, index) => (
                 <SwiperSlide key={index} style={{ position: "relative" }}>
                   <img src={image} alt="" className="testiminal_image" />
                   <div className="testiminal_user_image_div">
-                    {/* <img
+                    <img
                       src={UserImage}
                       alt="user_image"
                       className="testiminal_user_image"
-                    /> */}
+                    />
                     <div className="user_info">
-                      <div className="w-100 user_info-message" >The greatest glory in living lies not in never falling, but in rising every time we fall  </div>
+                      <div className="w-100 user_info-message" >Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!  </div>
                       <h6>Vaibhv Rathore</h6>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))} */}
+              {images.map((testimonial, index) => (
+                <SwiperSlide key={index} style={{ position: "relative" }}>
+                  <img
+                    src={testimonial.src}
+                    alt=""
+                    className="testiminal_image"
+                  />
+                  <div className="testiminal_user_image_div">
+                    <div className="user_info">
+                      <div className="w-100 user_info-message">
+                        {testimonial.message}
+                      </div>
+                      <h6>{testimonial.name}</h6>
                     </div>
                   </div>
                 </SwiperSlide>
