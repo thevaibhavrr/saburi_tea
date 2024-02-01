@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "../style/header.css";
-import mainIcon from "../images/S-logo.png";
+import "../../style/our-product/our-product/our-product-header.css";
+import mainIcon from "../../images/S-logo.png";
 import { NavLink } from "react-router-dom";
 
-function Header() {
+function Our_Product_Header() {
   const [showVerticalNavbar, setShowVerticalNavbar] = useState(false);
 
   const toggleVerticalNavbar = () => {
@@ -14,7 +14,7 @@ function Header() {
     <>
       <div>
         {/* navbar */}
-        <div className="back-ground-tea-image">
+        <div className="back-our-product-image">
           <nav className="navbar navbar-expand-lg navbar-light">
             <div
               className="d-flex justify-content-around w-100"
@@ -70,4 +70,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Our_Product_Header;

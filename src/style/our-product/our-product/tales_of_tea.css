@@ -1,0 +1,68 @@
+.main_tales_of_tea_bg_image {
+  background-image: url("../../../images/our-product-img/our-product-long-bg-image.png");
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.main_tales_of_tea_section {
+  text-align: center;
+  padding: 20px;
+}
+.main_tales_text_section {
+  padding: 0px 30px;
+}
+.main_tales_of_tea_heading{
+   font-size: 50px;
+   font-weight: 5px;
+   letter-spacing: 1px;
+   font-family: var(--our-product-font-family)
+}
+
+/* card */
+.main_tales_card_div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    gap: 120px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.tales_of_tea_card_paregraph {
+  font-size: 12px;
+  text-align: center;
+  /* font-family: var(--our-product-font-family); */
+}
+.tales_of_tea_card {
+  background: linear-gradient(#000000a1,#5ead46 ,#5ead46);
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  position: relative;
+}
+.tales_of_tea_card_text{
+    /* margin-top: 10px; */
+    padding: 10px;
+    
+}
+.tales_of_tea_card_text_data {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  font-family: var(--our-product-font-family);
+}
+.Tales_second_heading{
+  font-family: var(--our-product-font-family);
+  font-size: 25px;
+}
+.tales_of_tea_image {
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+
+.tales_of_tea_image_div {
+  text-align: center;
+}
