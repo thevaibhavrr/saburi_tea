@@ -7,6 +7,8 @@ import image9 from "../../images/our-product-img/our-product-9.png";
 import image10 from "../../images/our-product-img/our-product-10.png";
 import left_clove from "../../images/our-product-img/clove_left.png";
 import Right_clove from "../../images/our-product-img/clove_right.png";
+import left_clove_2 from "../../images/our-product-img/clove2_left.png";
+import Right_clove_2 from "../../images/our-product-img/clove2_right.png";
 
 function SpiceSensations() {
   const images = [
@@ -16,6 +18,8 @@ function SpiceSensations() {
         "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Jeera",
     },
+  ];
+  const images2 = [
     {
       src: image7,
       message:
@@ -28,6 +32,8 @@ function SpiceSensations() {
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Kali Mirch",
     },
+  ];
+  const images3 = [
     {
       src: image7,
       message:
@@ -45,7 +51,7 @@ function SpiceSensations() {
     <>
       <div>
         <div className="main_tales_of_tea_bg_image">
-          {/* side images Clove */}
+          {/* side images Leafs */}
           <div className=" d-flex justify-content-between">
             <div>
               <img src={left_clove} alt="Icon" srcset="" />
@@ -54,7 +60,8 @@ function SpiceSensations() {
               <img src={Right_clove} alt="Icon" srcset="" />
             </div>
           </div>
-          {/* side images Clove end */}
+          {/* side images Leafs end */}
+
           <div className="main_tales_text_section">
             {/* tales of tea text */}
             <div className="main_tales_of_tea_section">
@@ -65,7 +72,15 @@ function SpiceSensations() {
             <div className="main_tales_card_div">
               {/* card */}
               {images.map((data, index) => (
-                <div className="tales_of_tea_card" key={index}>
+                <div
+                  className="tales_of_tea_card"
+                  key={index}
+                  data-aos="flip-right"
+                  data-aos-offset="200"
+                  // data-aos-delay="1000"
+                  data-aos-duration="800"
+                  data-aos-easing="ease-in-out"
+                >
                   <div className="tales_of_tea_card_text_data">
                     {/* card image */}
                     <div className="tales_of_tea_image_div">
@@ -73,13 +88,20 @@ function SpiceSensations() {
                         src={data.src}
                         alt="tea"
                         className="tales_of_tea_image"
+                        data-aos="flip-left"
+                        data-aos-offset="200"
+                        // data-aos-delay="1300"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
                       />
                     </div>
                     {/* card text */}
                     <div className="tales_of_tea_card_text">
                       {/* card heading */}
                       <div className=" text-center">
-                        <h5 className=" text-white Tales_second_heading">{data.name}</h5>
+                        <h5 className=" text-white Tales_second_heading">
+                          {data.name}
+                        </h5>
                       </div>
                       {/* card paregraph */}
                       <div>
@@ -93,15 +115,132 @@ function SpiceSensations() {
               ))}
             </div>
           </div>
-          {/* side images Clove */}
+
+          {/* side images Leafs */}
           <div className=" d-flex justify-content-between">
             <div>
-              <img src={left_clove} alt="Icon" srcset="" class="rotate-180"/>
+              <img src={left_clove_2} alt="Icon" srcset="" />
             </div>
             <div>
-              <img src={Right_clove} alt="Icon" srcset="" class="rotate-180"/>
+              <img src={Right_clove_2} alt="Icon" srcset="" />
             </div>
           </div>
+
+          {/* tales of tea card section */}
+          <div className="main_tales_card_div">
+            {/* card */}
+            {images2.map((data, index) => (
+              <div
+                className="tales_of_tea_card"
+                key={index}
+                data-aos="flip-right"
+                data-aos-offset="200"
+                // data-aos-delay="1000"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+              >
+                <div className="tales_of_tea_card_text_data">
+                  {/* card image */}
+                  <div className="tales_of_tea_image_div">
+                    <img
+                      src={data.src}
+                      alt="tea"
+                      className="tales_of_tea_image"
+                      data-aos="flip-left"
+                      data-aos-offset="200"
+                      // data-aos-delay="1300"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                    />
+                  </div>
+                  {/* card text */}
+                  <div className="tales_of_tea_card_text">
+                    {/* card heading */}
+                    <div className=" text-center">
+                      <h5 className=" text-white Tales_second_heading">
+                        {data.name}
+                      </h5>
+                    </div>
+                    {/* card paregraph */}
+                    <div>
+                      <p className="tales_of_tea_card_paregraph">
+                        {data.message}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* side images Leafs */}
+          <div className=" d-flex justify-content-between">
+            <div>
+              <img src={left_clove_2} alt="Icon" srcset="" />
+            </div>
+            <div>
+              <img src={Right_clove_2} alt="Icon" srcset="" />
+            </div>
+          </div>
+          {/* side images Leafs end */}
+
+          {/* tales of tea card section */}
+          <div className="main_tales_card_div">
+            {/* card */}
+            {images3.map((data, index) => (
+              <div
+                className="tales_of_tea_card"
+                key={index}
+                data-aos="flip-right"
+                data-aos-offset="200"
+                // data-aos-delay="1000"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+              >
+                <div className="tales_of_tea_card_text_data">
+                  {/* card image */}
+                  <div className="tales_of_tea_image_div">
+                    <img
+                      src={data.src}
+                      alt="tea"
+                      className="tales_of_tea_image"
+                      data-aos="flip-left"
+                      data-aos-offset="200"
+                      // data-aos-delay="1300"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                    />
+                  </div>
+                  {/* card text */}
+                  <div className="tales_of_tea_card_text">
+                    {/* card heading */}
+                    <div className=" text-center">
+                      <h5 className=" text-white Tales_second_heading">
+                        {data.name}
+                      </h5>
+                    </div>
+                    {/* card paregraph */}
+                    <div>
+                      <p className="tales_of_tea_card_paregraph">
+                        {data.message}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* side images Leafs */}
+          <div className=" d-flex justify-content-between">
+            <div>
+              <img src={left_clove} alt="Icon" srcset="" className="rotate-180" />
+            </div>
+            <div>
+              <img src={Right_clove} alt="Icon" srcset="" className="rotate-180"/>
+            </div>
+          </div>
+          {/* side images Leafs end */}
         </div>
       </div>
     </>

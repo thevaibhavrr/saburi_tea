@@ -16,6 +16,8 @@ function Tales_of_tea() {
         "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Gold Chai",
     },
+  ];
+  const images2 = [
     {
       src: image2,
       message:
@@ -28,6 +30,8 @@ function Tales_of_tea() {
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Masala Chai",
     },
+  ];
+  const images3 = [
     {
       src: image4,
       message:
@@ -66,7 +70,15 @@ function Tales_of_tea() {
             <div className="main_tales_card_div">
               {/* card */}
               {images.map((data, index) => (
-                <div className="tales_of_tea_card" key={index}>
+                <div
+                  className="tales_of_tea_card"
+                  key={index}
+                  data-aos="flip-right"
+                  data-aos-offset="200"
+                  // data-aos-delay="1000"
+                  data-aos-duration="800"
+                  data-aos-easing="ease-in-out"
+                >
                   <div className="tales_of_tea_card_text_data">
                     {/* card image */}
                     <div className="tales_of_tea_image_div">
@@ -74,13 +86,20 @@ function Tales_of_tea() {
                         src={data.src}
                         alt="tea"
                         className="tales_of_tea_image"
+                        data-aos="flip-left"
+                        data-aos-offset="200"
+                        // data-aos-delay="1300"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
                       />
                     </div>
                     {/* card text */}
                     <div className="tales_of_tea_card_text">
                       {/* card heading */}
                       <div className=" text-center">
-                        <h5 className=" text-white Tales_second_heading">{data.name}</h5>
+                        <h5 className=" text-white Tales_second_heading">
+                          {data.name}
+                        </h5>
                       </div>
                       {/* card paregraph */}
                       <div>
@@ -105,10 +124,123 @@ function Tales_of_tea() {
             </div>
           </div>
 
+          {/* tales of tea card section */}
+          <div className="main_tales_card_div">
+            {/* card */}
+            {images2.map((data, index) => (
+              <div
+                className="tales_of_tea_card"
+                key={index}
+                data-aos="flip-right"
+                data-aos-offset="200"
+                // data-aos-delay="1000"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+              >
+                <div className="tales_of_tea_card_text_data">
+                  {/* card image */}
+                  <div className="tales_of_tea_image_div">
+                    <img
+                      src={data.src}
+                      alt="tea"
+                      className="tales_of_tea_image"
+                      data-aos="flip-left"
+                      data-aos-offset="200"
+                      // data-aos-delay="1300"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                    />
+                  </div>
+                  {/* card text */}
+                  <div className="tales_of_tea_card_text">
+                    {/* card heading */}
+                    <div className=" text-center">
+                      <h5 className=" text-white Tales_second_heading">
+                        {data.name}
+                      </h5>
+                    </div>
+                    {/* card paregraph */}
+                    <div>
+                      <p className="tales_of_tea_card_paregraph">
+                        {data.message}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* side images Leafs */}
+          <div className=" d-flex justify-content-between">
+            <div>
+              <img src={left_Leaf} alt="Icon" srcset="" />
+            </div>
+            <div>
+              <img src={Right_Leaf} alt="Icon" srcset="" />
+            </div>
+          </div>
+          {/* side images Leafs end */}
+
+          {/* tales of tea card section */}
+          <div className="main_tales_card_div">
+            {/* card */}
+            {images3.map((data, index) => (
+              <div
+                className="tales_of_tea_card"
+                key={index}
+                data-aos="flip-right"
+                data-aos-offset="200"
+                // data-aos-delay="1000"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+              >
+                <div className="tales_of_tea_card_text_data">
+                  {/* card image */}
+                  <div className="tales_of_tea_image_div">
+                    <img
+                      src={data.src}
+                      alt="tea"
+                      className="tales_of_tea_image"
+                      data-aos="flip-left"
+                      data-aos-offset="200"
+                      // data-aos-delay="1300"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                    />
+                  </div>
+                  {/* card text */}
+                  <div className="tales_of_tea_card_text">
+                    {/* card heading */}
+                    <div className=" text-center">
+                      <h5 className=" text-white Tales_second_heading">
+                        {data.name}
+                      </h5>
+                    </div>
+                    {/* card paregraph */}
+                    <div>
+                      <p className="tales_of_tea_card_paregraph">
+                        {data.message}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* side images Leafs */}
+          <div className=" d-flex justify-content-between">
+            <div>
+              <img src={left_Leaf} alt="Icon" srcset="" />
+            </div>
+            <div>
+              <img src={Right_Leaf} alt="Icon" srcset="" />
+            </div>
+          </div>
+          {/* side images Leafs end */}
         </div>
       </div>
-
-      
     </>
   );
 }

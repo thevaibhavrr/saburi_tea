@@ -29,6 +29,6 @@ code {
   width: 155px;
   margin-top: -30px;
 }
-/* .rotate-180 {
-  transform: rotate(190deg);
-} */
+.rotate-180 {
+  transform: rotate(180deg) scale(-1);
+}

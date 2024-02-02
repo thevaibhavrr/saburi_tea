@@ -15,8 +15,8 @@ function SoyaChunk() {
   ];
   return (
     <>
-      <div>
-        <div className="main_tales_of_tea_bg_image">
+      <div className="" >
+        <div className="main_tales_of_tea_bg_image pb-4">
           {/* side images Clove */}
           <div className=" d-flex justify-content-between">
             <div>
@@ -37,7 +37,13 @@ function SoyaChunk() {
             <div className="main_tales_card_div">
               {/* card */}
               {images.map((data, index) => (
-                <div className="tales_of_tea_card" key={index}>
+                <div className="tales_of_tea_card" key={index}
+                data-aos="flip-right"
+                data-aos-offset="200"
+                // data-aos-delay="1000"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                >
                   <div className="tales_of_tea_card_text_data">
                     {/* card image */}
                     <div className="tales_of_tea_image_div">
@@ -45,6 +51,11 @@ function SoyaChunk() {
                         src={data.src}
                         alt="tea"
                         className="tales_of_tea_image Tales_second_heading"
+                        data-aos="flip-left"
+                        data-aos-offset="200"
+                        // data-aos-delay="1300"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
                       />
                     </div>
                     {/* card text */}
@@ -65,18 +76,10 @@ function SoyaChunk() {
               ))}
             </div>
           </div>
-          {/* side images Clove */}
-          {/* <div className=" d-flex justify-content-between">
-            <div>
-              <img src={left_chunk} alt="Icon" srcset="" />
-            </div>
-            <div>
-              <img src={Right_chunk} alt="Icon" srcset="" />
-            </div>
-          </div> */}
         </div>
       </div>
     </>
+         
   );
 }
 

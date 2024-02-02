@@ -1,13 +1,8 @@
 .back-our-product-image {
-    /* background-image: url("../images/Homepage Banner.png"); */
     background-image: url("../../../images/our-product-img/our-product-header-bg.png");
-    /* background-image: url("../images/TEA\ SMOKE\ 3.mp4"); */
     width: 100%;
     height: 100vh;
-    /* background-size: 100% 100%; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: fixed; */
-    /* background-attachment: scroll; */
   }
