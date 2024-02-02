@@ -32,7 +32,7 @@
 .tales_of_tea_card_paregraph {
   font-size: 12px;
   text-align: center;
-  /* font-family: var(--our-product-font-family); */
+  font-family: var(--our-product-kotta-one-font-family);
 }
 .tales_of_tea_card {
   background: linear-gradient(#000000a1,#5ead46 ,#5ead46);
@@ -54,7 +54,9 @@
   font-family: var(--our-product-font-family);
 }
 .Tales_second_heading{
-  font-family: var(--our-product-font-family);
+  /* font-family: var(--our-product-font-family); */
+  font-family: var(--our-product-kotta-one-font-family);
+
   font-size: 25px;
 }
 .tales_of_tea_image {
