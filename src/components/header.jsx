@@ -53,7 +53,12 @@ function Header() {
               <div className="vertical-navbar">
                 <ul>
                   <li>HOME</li>
-                  <li>ABOUT US</li>
+                  <NavLink
+                    className=" text-decoration-none text-white"
+                    to={"/about-us"}
+                  >
+                  <li>About</li>
+                  </NavLink>
                   <NavLink
                     className=" text-decoration-none text-white"
                     to={"/our-product"}

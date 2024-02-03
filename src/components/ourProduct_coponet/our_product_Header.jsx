@@ -51,17 +51,32 @@ function Our_Product_Header() {
             {/* Vertical Navbar */}
             {showVerticalNavbar && (
               <div className="vertical-navbar">
-                <ul>
-                  <li>HOME</li>
-                  <li>ABOUT US</li>
+              <ul>
+                <li>HOME</li>
+                <NavLink
+                  className=" text-decoration-none text-white"
+                  to={"/about-us"}
+                >
+                <li>About</li>
+                </NavLink>
+                <NavLink
+                  className=" text-decoration-none text-white"
+                  to={"/our-product"}
+                >
                   <li>PRODUCT</li>
-                  <li>E-CATALOG</li>
-                  <li>Event</li>
-                  <NavLink className=" text-decoration-none text-white" to={"/our-product"}>
-                    <li  >Contact US</li>
-                  </NavLink>
-                </ul>
-              </div>
+                </NavLink>
+
+                <li>E-CATALOG</li>
+                <li>Event</li>
+
+                <NavLink
+                  className=" text-decoration-none text-white"
+                  to={"/contact-us"}
+                >
+                <li>Contact US</li>
+                </NavLink>
+              </ul>
+            </div>
             )}
           </nav>
         </div>
