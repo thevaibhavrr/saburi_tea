@@ -65,25 +65,16 @@ function AboutSaburi() {
             <div className="main_About_saburi_section">
               <h2 className="main_tales_of_tea_heading">About Saburi</h2>
             </div>
-              <div>
-
-              <p className="About_saburi_section_message " >
+            <div>
+              <p className="About_saburi_section_message ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas laudantium sed dolores libero, aliquam at, fugit illum
                 amet possimus reiciendis commodi quae aliquid excepturi
                 praesentium! Expedita iste ea sunt quas.
               </p>
-              </div>
-
-            {/* tales of tea card section */}
-            <div className="main_tales_card_div mb-5">
-              {/* card */}
-              {images.map((data, index) => (
-               <div className="about_saburi_card" >
-                <div>Nature</div>
-               </div>
-              ))}
             </div>
+
+          
           </div>
 
           {/* side images Leafs */}
@@ -92,13 +83,36 @@ function AboutSaburi() {
               <img src={left_Leaf} alt="Icon" srcset="" />
             </div>
             <div>
+            <div className="main_About_saburi_section">
+              <h2 className="main_about_heading">Business  Specification</h2>
+            </div>
+            </div>
+            <div>
               <img src={Right_Leaf} alt="Icon" srcset="" />
             </div>
           </div>
 
+
+       
+          
+
           {/* tales of tea card section */}
-          <div className="main_tales_card_div">
-            {/* card */}
+          <div className="main_tales_card_div">{/* card */}
+          
+            {/* tales of tea card section */}
+            <div className="main_tales_card_div ">
+              {/* card */}
+              {images.map((data, index) => (
+                <div className="about_saburi_card ">
+                  <div>Nature of Business</div>
+                  <hr />
+                  <div>
+                  {/* Manufacture, Trader, Wholesaler/Distributor and supplier */}
+                  lkmlklmlmlml
+                  </div>
+                </div>
+              ))}
+            </div>
           
           </div>
 
@@ -114,10 +128,7 @@ function AboutSaburi() {
           {/* side images Leafs end */}
 
           {/* tales of tea card section */}
-          <div className="main_tales_card_div">
-            {/* card */}
-       
-          </div>
+          <div className="main_tales_card_div">{/* card */}</div>
 
           {/* side images Leafs */}
           <div className=" d-flex justify-content-between">

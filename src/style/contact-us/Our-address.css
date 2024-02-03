@@ -9,7 +9,7 @@
   font-family: var(--our-address-font-family);
   font-weight: 400;
 
-}
+} 
 .main-address-upper-side {
   padding: 20px;
   width: 300px;
@@ -26,5 +26,4 @@
   text-align: center;
   font-family: var(--our-address-font-family);
   font-weight: 400;
-
 }
