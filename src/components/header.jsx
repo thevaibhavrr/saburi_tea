@@ -54,11 +54,21 @@ function Header() {
                 <ul>
                   <li>HOME</li>
                   <li>ABOUT US</li>
-                  <li>PRODUCT</li>
+                  <NavLink
+                    className=" text-decoration-none text-white"
+                    to={"/our-product"}
+                  >
+                    <li>PRODUCT</li>
+                  </NavLink>
+
                   <li>E-CATALOG</li>
                   <li>Event</li>
-                  <NavLink className=" text-decoration-none text-white" to={"/our-product"}>
-                    <li  >Contact US</li>
+
+                  <NavLink
+                    className=" text-decoration-none text-white"
+                    to={"/contact-us"}
+                  >
+                  <li>Contact US</li>
                   </NavLink>
                 </ul>
               </div>

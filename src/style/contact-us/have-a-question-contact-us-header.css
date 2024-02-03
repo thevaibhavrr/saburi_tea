@@ -1,0 +1,41 @@
+.main-have-a-question-contact-us{
+    background-image: url("../../images/contact_us_img/contact-us-main-back-Image.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding: 50px 0px; */
+}
+.have_a_question_main_form_before_start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.have_a_question_main_form div{
+display: flex;
+flex-direction: column;
+margin: 20px 0px;
+}
+.have_a_question_main_form_input_div input,textarea{
+width: 300px;
+border: 1px solid black;
+border-radius: 12px;
+padding: 14px;
+}
+/* button */
+.have_a_question_save_button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.have_a_question_save_button{
+    /* width: 10px; */
+    cursor: pointer;
+    padding: 10px 45px;
+    border-radius: 13px;
+    background: #68D646;
+    color: white;
+    font-weight: bold;
+
+}

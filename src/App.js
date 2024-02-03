@@ -5,7 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import Ourproduct from './page/ourproduct';
+import Contactus from './page/contactus';
 import { Route, Routes } from "react-router-dom";
+import About from './page/About';
 
 function App() {
   useEffect(()=>{
@@ -16,6 +18,8 @@ function App() {
     <Routes>
   <Route path="/" element={<Home/>} />
   <Route path="/our-product" element={<Ourproduct/>} />
+  <Route path="/contact-us" element={<Contactus/>} />
+  {/* <Route path="/about-us" element={<About/>} /> */}
 
       
     </Routes>
