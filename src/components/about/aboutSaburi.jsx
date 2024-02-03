@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/our-product/our-product/tales_of_tea.css";
+import "../../style/about/AboutSaburi.css";
 import image1 from "../../images/our-product-img/our-product-1.png";
 import image2 from "../../images/our-product-img/our-product-2.png";
 import image3 from "../../images/our-product-img/our-product-3.png";
@@ -62,60 +62,26 @@ function AboutSaburi() {
 
           <div className="main_tales_text_section">
             {/* tales of tea text */}
-            <div className="main_tales_of_tea_section">
+            <div className="main_About_saburi_section">
               <h2 className="main_tales_of_tea_heading">About Saburi</h2>
-              <p className=" bg-warning " >
+            </div>
+              <div>
+
+              <p className="About_saburi_section_message " >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas laudantium sed dolores libero, aliquam at, fugit illum
                 amet possimus reiciendis commodi quae aliquid excepturi
                 praesentium! Expedita iste ea sunt quas.
               </p>
-            </div>
+              </div>
 
             {/* tales of tea card section */}
-            <div className="main_tales_card_div">
+            <div className="main_tales_card_div mb-5">
               {/* card */}
               {images.map((data, index) => (
-                <div
-                  className="tales_of_tea_card"
-                  key={index}
-                  data-aos="flip-right"
-                  data-aos-offset="200"
-                  // data-aos-delay="1000"
-                  data-aos-duration="800"
-                  data-aos-easing="ease-in-out"
-                >
-                  <div className="tales_of_tea_card_text_data">
-                    {/* card image */}
-                    <div className="tales_of_tea_image_div">
-                      <img
-                        src={data.src}
-                        alt="tea"
-                        className="tales_of_tea_image"
-                        data-aos="flip-left"
-                        data-aos-offset="200"
-                        // data-aos-delay="1300"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                      />
-                    </div>
-                    {/* card text */}
-                    <div className="tales_of_tea_card_text">
-                      {/* card heading */}
-                      <div className=" text-center">
-                        <h5 className=" text-white Tales_second_heading">
-                          {data.name}
-                        </h5>
-                      </div>
-                      {/* card paregraph */}
-                      <div>
-                        <p className="tales_of_tea_card_paregraph">
-                          {data.message}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+               <div className="about_saburi_card" >
+                <div>Nature</div>
+               </div>
               ))}
             </div>
           </div>
@@ -133,48 +99,7 @@ function AboutSaburi() {
           {/* tales of tea card section */}
           <div className="main_tales_card_div">
             {/* card */}
-            {images2.map((data, index) => (
-              <div
-                className="tales_of_tea_card"
-                key={index}
-                data-aos="flip-right"
-                data-aos-offset="200"
-                // data-aos-delay="1000"
-                data-aos-duration="800"
-                data-aos-easing="ease-in-out"
-              >
-                <div className="tales_of_tea_card_text_data">
-                  {/* card image */}
-                  <div className="tales_of_tea_image_div">
-                    <img
-                      src={data.src}
-                      alt="tea"
-                      className="tales_of_tea_image"
-                      data-aos="flip-left"
-                      data-aos-offset="200"
-                      // data-aos-delay="1300"
-                      data-aos-duration="1000"
-                      data-aos-easing="ease-in-out"
-                    />
-                  </div>
-                  {/* card text */}
-                  <div className="tales_of_tea_card_text">
-                    {/* card heading */}
-                    <div className=" text-center">
-                      <h5 className=" text-white Tales_second_heading">
-                        {data.name}
-                      </h5>
-                    </div>
-                    {/* card paregraph */}
-                    <div>
-                      <p className="tales_of_tea_card_paregraph">
-                        {data.message}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+          
           </div>
 
           {/* side images Leafs */}
@@ -191,48 +116,7 @@ function AboutSaburi() {
           {/* tales of tea card section */}
           <div className="main_tales_card_div">
             {/* card */}
-            {images3.map((data, index) => (
-              <div
-                className="tales_of_tea_card"
-                key={index}
-                data-aos="flip-right"
-                data-aos-offset="200"
-                // data-aos-delay="1000"
-                data-aos-duration="800"
-                data-aos-easing="ease-in-out"
-              >
-                <div className="tales_of_tea_card_text_data">
-                  {/* card image */}
-                  <div className="tales_of_tea_image_div">
-                    <img
-                      src={data.src}
-                      alt="tea"
-                      className="tales_of_tea_image"
-                      data-aos="flip-left"
-                      data-aos-offset="200"
-                      // data-aos-delay="1300"
-                      data-aos-duration="1000"
-                      data-aos-easing="ease-in-out"
-                    />
-                  </div>
-                  {/* card text */}
-                  <div className="tales_of_tea_card_text">
-                    {/* card heading */}
-                    <div className=" text-center">
-                      <h5 className=" text-white Tales_second_heading">
-                        {data.name}
-                      </h5>
-                    </div>
-                    {/* card paregraph */}
-                    <div>
-                      <p className="tales_of_tea_card_paregraph">
-                        {data.message}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+       
           </div>
 
           {/* side images Leafs */}
