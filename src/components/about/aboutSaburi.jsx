@@ -22,7 +22,11 @@ function AboutSaburi() {
           </div>
           {/* side images Leafs end */}
 
-          <div className="main_tales_text_section">
+          <div className="main_tales_text_section" 
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-duration="900"
+          >
             {/* tales of tea text */}
             <div className="main_About_saburi_section">
               <h2 className="main_tales_of_tea_heading">About Saburi</h2>
@@ -61,16 +65,23 @@ function AboutSaburi() {
           {/* card */}
           {/* 1 */}
           {/* tales of tea card section */}
-          <div className="main_tales_card_div ">
+          <div className="main_tales_card_div"> 
             {/* card 1 */}
-            <div className="about_saburi_card_first about_saburi_card">
+            <div className="about_saburi_card_first about_saburi_card" 
+            data-aos="flip-up"
+              data-aos-offset="200"
+              data-aos-duration="900"
+            >
               <div>Nature of Business</div>
               <div className="about_saburi_first_card_message">
                 Manufacture, Trader, Wholesaler/Distributor and supplier
               </div>
             </div>
             {/* card 2 */}
-            <div className="about_saburi_card_second about_saburi_card">
+            <div className="about_saburi_card_second about_saburi_card"
+             data-aos="flip-down"
+             data-aos-offset="200"
+             data-aos-duration="900">
               <div className="about_saburi_second_card_message">
                 Year of Establishment
               </div>
@@ -92,14 +103,22 @@ function AboutSaburi() {
           {/* tales of tea card section */}
           <div className="main_tales_card_div ">
             {/* card 1 */}
-            <div className="about_saburi_card_first about_saburi_card">
+            <div className="about_saburi_card_first about_saburi_card"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-duration="900"
+            >
               <div>No. of Employees</div>
               <div className="about_saburi_first_card_message">
                 As per the requirement
               </div>
             </div>
             {/* card 2 */}
-            <div className="about_saburi_card_second about_saburi_card">
+            <div className="about_saburi_card_second about_saburi_card"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-duration="900"
+            >
               <div className="about_saburi_second_card_message">
                 No. of Production Unit
               </div>
@@ -121,14 +140,22 @@ function AboutSaburi() {
           {/* tales of tea card section */}
           <div className="main_tales_card_div ">
             {/* card 1 */}
-            <div className="about_saburi_card_first about_saburi_card">
+            <div className="about_saburi_card_first about_saburi_card"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-duration="900"
+            >
               <div>Monthly Production Capacity</div>
               <div className="about_saburi_first_card_message">
                 As per the requirement
               </div>
             </div>
             {/* card 2 */}
-            <div className="about_saburi_card_second about_saburi_card">
+            <div className="about_saburi_card_second about_saburi_card"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-duration="900"
+            >
               <div className="about_saburi_second_card_message">
                 Production Type
               </div>
@@ -150,12 +177,20 @@ function AboutSaburi() {
           {/* tales of tea card section */}
           <div className="main_tales_card_div ">
             {/* card 1 */}
-            <div className="about_saburi_card_first about_saburi_card">
+            <div className="about_saburi_card_first about_saburi_card"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-duration="900"
+            >
               <div>Warehouse Facility</div>
               <div className="about_saburi_first_card_message">Yes</div>
             </div>
             {/* card 2 */}
-            <div className="about_saburi_card_second about_saburi_card">
+            <div className="about_saburi_card_second about_saburi_card"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-duration="900"
+            >
               <div className="about_saburi_second_card_message">
                 Original Equipment Manufacture
               </div>
@@ -177,7 +212,11 @@ function AboutSaburi() {
           {/* tales of tea card section */}
           <div className="main_tales_card_div ">
             {/* card 1 */}
-            <div className="about_saburi_card_first about_saburi_card">
+            <div className="about_saburi_card_first about_saburi_card"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-duration="900"
+            >
               <div>Bankers</div>
               <div className="about_saburi_first_card_message">
                 Allahabad Bank, Kotak Mahindra Bank
