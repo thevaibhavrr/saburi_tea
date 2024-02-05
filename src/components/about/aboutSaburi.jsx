@@ -47,7 +47,7 @@ function AboutSaburi() {
           </div>
 
           {/* side small images Leafs */}
-          <div className=" d-flex justify-content-between my-5">
+          <div className=" d-flex justify-content-between mt-5 ">
             <div>
               <img src={Left_small_leaf} alt="Icon" srcset="" />
             </div>
@@ -90,7 +90,7 @@ function AboutSaburi() {
           </div>
           {/* tales of tea card section end */}
           {/* side small images Leafs */}
-          <div className=" d-flex justify-content-between my-5">
+          <div className=" d-flex justify-content-between ">
             <div>
               <img src={Left_small_leaf} alt="Icon" srcset="" />
             </div>
@@ -127,7 +127,7 @@ function AboutSaburi() {
           </div>
           {/* tales of tea card section end */}
           {/* side small images Leafs */}
-          <div className=" d-flex justify-content-between my-5">
+          <div className=" d-flex justify-content-between">
             <div>
               <img src={Left_small_leaf} alt="Icon" srcset="" />
             </div>
@@ -164,7 +164,7 @@ function AboutSaburi() {
           </div>
           {/* tales of tea card section end */}
           {/* side small images Leafs */}
-          <div className=" d-flex justify-content-between my-5">
+          <div className=" d-flex justify-content-between ">
             <div>
               <img src={Left_small_leaf} alt="Icon" srcset="" />
             </div>
@@ -199,7 +199,7 @@ function AboutSaburi() {
           </div>
           {/* tales of tea card section end */}
           {/* side small images Leafs */}
-          <div className=" d-flex justify-content-between my-5">
+          <div className=" d-flex justify-content-between">
             <div>
               <img src={Left_small_leaf} alt="Icon" srcset="" />
             </div>
