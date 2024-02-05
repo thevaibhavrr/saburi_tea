@@ -53,7 +53,12 @@ function Contactuseheader() {
             {showVerticalNavbar && (
                <div className="vertical-navbar">
                <ul>
-                 <li>HOME</li>
+               <NavLink
+                  className=" text-decoration-none text-white"
+                  to={"/"}
+                >
+                <li>HOME</li>
+                </NavLink>
                  <NavLink
                    className=" text-decoration-none text-white"
                    to={"/about-us"}

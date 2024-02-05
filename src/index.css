@@ -15,6 +15,7 @@ code {
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Cedarville+Cursive&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Cedarville+Cursive&family=Kotta+One&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* root var */
 :root {
@@ -22,6 +23,7 @@ code {
   --our-product-font-family: "Allura", cursive;
   --our-product-kotta-one-font-family: "Kotta One", serif;
   --our-address-font-family: "Montserrat", sans-serif;
+  --Lato-font-family: "Lato", sans-serif;
 }
 
 .heading-text {
