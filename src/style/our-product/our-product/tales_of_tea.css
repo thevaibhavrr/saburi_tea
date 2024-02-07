@@ -1,4 +1,5 @@
-.main_tales_of_tea_bg_image {
+/* .main_tales_of_tea_bg_image { */
+.main_tales_of_tea_bg_image_full_page {
   background-image: url("../../../images/our-product-img/our-product-long-bg-image.png");
   width: 100%;
   background-repeat: no-repeat;
@@ -10,23 +11,23 @@
 .main_tales_text_section {
   padding: 0px 30px;
 }
-.main_tales_of_tea_heading{
-   font-size: 50px;
-   font-weight: 5px;
-   letter-spacing: 1px;
-   font-family: var(--our-product-font-family)
+.main_tales_of_tea_heading {
+  font-size: 50px;
+  font-weight: 5px;
+  letter-spacing: 1px;
+  font-family: var(--our-product-font-family);
 }
 
 /* card */
-.main_tales_card_div{
-    display: flex;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content: space-around;
-    gap: 90px;
-    position: relative;
-    margin-top: 50px;
-    
+.main_tales_card_div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 90px;
+  position: relative;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 .tales_of_tea_card_paregraph {
@@ -35,17 +36,16 @@
   font-family: var(--our-product-kotta-one-font-family);
 }
 .tales_of_tea_card {
-  background: linear-gradient(#000000a1,#5ead46 ,#5ead46);
+  background: linear-gradient(#000000a1, #5ead46, #5ead46);
   box-sizing: border-box;
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  height: 220px;
+  width: 220px;
+  border-radius: 200px;
   position: relative;
 }
-.tales_of_tea_card_text{
-    /* margin-top: 10px; */
-    padding: 10px;
-    
+
+.tales_of_tea_card_text {
+  padding: 10px;
 }
 .tales_of_tea_card_text_data {
   position: absolute;
@@ -53,10 +53,8 @@
   transform: translateY(-50%);
   font-family: var(--our-product-font-family);
 }
-.Tales_second_heading{
-  /* font-family: var(--our-product-font-family); */
+.Tales_second_heading {
   font-family: var(--our-product-kotta-one-font-family);
-
   font-size: 25px;
 }
 .tales_of_tea_image {
@@ -67,4 +65,57 @@
 
 .tales_of_tea_image_div {
   text-align: center;
+}
+
+/* for mobile screen */
+
+@media (max-width: 760px) {
+  .card_for_big_screen {
+    display: none;
+  }
+}
+
+/* for table screen */
+@media (min-width: 760px) {
+  .card_for_small_screen {
+    display: none;
+  }
+  .tales_of_tea_card {
+    height: 220px;
+    width: 220px;
+    border-radius: 200px;
+  }
+  .tales_of_tea_image {
+    width: 120px;
+  }
+  .main_tales_card_div {
+    gap: 140px;
+  }
+  /* corner_icon */
+  .corner_icon {
+    width: 100px;
+  }
+}
+/* for laptop screen */
+
+@media (min-width: 1022px) {
+  .tales_of_tea_card {
+    height: 225px;
+    width: 225px;
+    border-radius: 200px;
+  }
+  .tales_of_tea_image {
+    width: 110px;
+  }
+
+  .tales_of_tea_card_paregraph {
+    font-size: 13px;
+  }
+  .Tales_second_heading {
+    font-size: 26px;
+  }
+  /* corner_icon */
+  .corner_icon {
+    width: 120px;
+  }
 }

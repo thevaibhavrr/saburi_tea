@@ -1,4 +1,7 @@
 
+.main_about_saburi_bg_image{
+  background-image: url("../../images/About/about-main-background.png");
+}
 .main_About_saburi_section {
   text-align: center;
   padding: 0px 50px;
@@ -59,5 +62,37 @@
 .about_saburi_card div:nth-child(2) {
     width: 100%;
     font-family: var(--Lato-font-family)
+}
+
+@media (min-width: 760px) {
+
+.About_saburi_section_message {
+  padding: 30px;
+  /* background: #000; */
+}
+.About_saburi_section_message_parent{
+  padding: 10px 20px;
+}
+.About_saburi_section_message{
+  word-spacing: 5px;
+  /* letter-spacing: 1px; */
+  font-weight: 100;
+  font-size: 20px;
+}
+
+/* card */
+.main_tales_card_div{
+  padding: 20px;
+}
+.about_saburi_card {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 2px;
+  border-radius: 15px;
+}
+.main_about_heading{
+  font-size: 60px;
+}
 
 }
