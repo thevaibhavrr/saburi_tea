@@ -1,7 +1,9 @@
 /* .main_tales_of_tea_bg_image { */
 .main_tales_of_tea_bg_image_full_page {
-  background-image: url("../../../images/our-product-img/our-product-long-bg-image.png");
+  /* background-image: url("../../../images/our-product-img/our-product-long-bg-image.png"); */
+  background-image: url("../../../images/our-product-img/out-product-main-bg-image.png");
   width: 100%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .main_tales_of_tea_section {
@@ -89,7 +91,7 @@
     width: 120px;
   }
   .main_tales_card_div {
-    gap: 140px;
+    gap: 115px;
   }
   /* corner_icon */
   .corner_icon {

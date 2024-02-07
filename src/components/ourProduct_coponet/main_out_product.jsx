@@ -10,7 +10,7 @@ function Main_out_product() {
       <SpiceSensations />
       <SoyaChunk />
     </div>
-  );
+  ); 
 }
 
 export default Main_out_product;
