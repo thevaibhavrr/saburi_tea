@@ -79,6 +79,11 @@
 
 /* for table screen */
 @media (min-width: 760px) {
+  .main_tales_of_tea_heading {
+    font-size: 80px;
+    font-weight: 10px;
+  }
+  
   .card_for_small_screen {
     display: none;
   }
