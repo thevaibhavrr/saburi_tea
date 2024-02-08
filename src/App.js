@@ -20,8 +20,6 @@ function App() {
   <Route path="/our-product" element={<Ourproduct/>} />
   <Route path="/contact-us" element={<Contactus/>} />
   <Route path="/about-us" element={<About/>} />
-
-      
     </Routes>
     </div>
   );

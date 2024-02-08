@@ -38,6 +38,16 @@ code {
   margin-top: -30px;
 }
 
+@media (min-width:1023px) {
+  .heading-text {
+    font-size: 38px;
+  }
+  .text-icon-bottom {
+    width: 205px;
+    margin-top: -20px;
+  }
+}
+
 .rotate-180 {
   transform: rotate(180deg) scale(-1);
 }

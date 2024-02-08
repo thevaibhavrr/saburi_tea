@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import image1 from "../../images/Testimonial.png";
 import TextBootomIcon from "../../images/Shape.png";
-// import UserImage from "../images/User Img.png";
+import UserImage from "../../images/User Img.png";
 
 export default function Testimonial() {
   const [swiperRef, setSwiperRef] = useState(null);
@@ -30,7 +30,7 @@ export default function Testimonial() {
       src: image1,
       message:
         "Spice up your life with Saburi. Exceptional flavors and quality. My dishes have never tasted this better!",
-        name: "Vaibhv Rathore",
+      name: "Vaibhv Rathore",
     },
     {
       src: image1,
@@ -99,9 +99,14 @@ export default function Testimonial() {
                   <img
                     src={testimonial.src}
                     alt=""
-                    className="testiminal_image"
+                    className="testiminal_image "
                   />
                   <div className="testiminal_user_image_div">
+                    <img
+                      src={UserImage}
+                      alt="user_image"
+                      className="testiminal_user_image"
+                    />
                     <div className="user_info">
                       <div className="w-100 user_info-message">
                         {testimonial.message}

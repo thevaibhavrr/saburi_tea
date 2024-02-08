@@ -30,13 +30,12 @@
   padding: 0px 10px; */
 }
 
-.mySwiper .swiper-slide img,
-iframe {
+/* .mySwiper .swiper-slide img,
+iframe  */
+.slider_images{
   display: block;
   width: 100%;
   object-fit: cover;
-  /* height: 100%; */
-  /* border-radius: 8px; */
 }
 
 .append-buttons {

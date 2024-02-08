@@ -91,6 +91,8 @@ export default function InstaLive() {
                       transform: `scale(${activeIndex === index ? 1 : 0.8})`,
                       transition: "transform 0.3s ease-in-out",
                     }}
+                    className="slider_images"
+
                     // data-aos="fade-down"
                     // data-aos-offset="100"
                     // data-aos-delay="400"

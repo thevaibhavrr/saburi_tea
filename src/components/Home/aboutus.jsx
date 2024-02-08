@@ -80,9 +80,7 @@ function AboutUs() {
         </div>
         {/* images */}
         <div className="about-us-images">
-          <div className="about-us-red-angel-image"
-          
-          >
+          <div className="about-us-red-angel-image">
             <img
               src={image2}
               alt="tea"

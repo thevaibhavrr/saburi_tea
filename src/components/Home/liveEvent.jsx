@@ -61,7 +61,8 @@ export default function LiveEvent() {
                     <img
                       src={image}
                       alt="images"
-                      className="live-events-images"
+                      className="slider_images"
+
                       // data-aos="fade-up"
                       // data-aos-offset="100"
                       // data-aos-delay="400"
