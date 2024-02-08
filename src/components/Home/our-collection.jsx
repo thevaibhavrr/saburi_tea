@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import "../style/ourcollection.css";
-import image1 from "../images/our_collection_1.png";
-import image2 from "../images/our_collection_2.png";
-import image3 from "../images/our_collection_3.png";
+import "../../style/ourcollection.css";
+import image1 from "../../images/our_collection_1.png";
+import image2 from "../../images/our_collection_2.png";
+import image3 from "../../images/our_collection_3.png";
 function Ourcollection() {
   useEffect(() => {
     // Run animation on component mount or update

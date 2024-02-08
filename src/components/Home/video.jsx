@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/video.css";
+import "../../style/video.css";
 function YTVideo() {
     const videoUrl = "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
   return (

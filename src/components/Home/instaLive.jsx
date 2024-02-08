@@ -1,12 +1,12 @@
-import "../style/instaLive.css";
+import "../../style/instaLive.css";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import TextBootomIcon from "../images/Shape.png";
-import InstaImage3 from "../images/insta_3.jpg"
-import InstaImage4 from "../images/InstaImage_2.jpg"
+import TextBootomIcon from "../../images/Shape.png";
+import InstaImage3 from "../../images/insta_3.jpg"
+import InstaImage4 from "../../images/InstaImage_2.jpg"
 
 export default function InstaLive() {
   const [swiperRef, setSwiperRef] = useState(null);

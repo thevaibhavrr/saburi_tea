@@ -1,11 +1,12 @@
-import "../style/live-event.css";
+// import "./../style/live-event.css";
+import "../../style/live-event.css"
 import React, {  useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import image1 from "../images/Live event1.png";
-import image2 from "../images/Live event2.png";
+import image1 from "../../images/Live event1.png";
+import image2 from "../../images/Live event2.png";
 
 export default function LiveEvent() {
   const [swiperRef, setSwiperRef] = useState(null);

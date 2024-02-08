@@ -17,7 +17,6 @@
   font-family: serif;
 }
 
-
 .about-us-images {
   background: var(--gay-main-bg-color);
   display: flex;
@@ -28,7 +27,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  /* background-attachment: fixed; */ 
 }
 
 .red-shape-about-us {
@@ -49,4 +47,22 @@
 
 .our-collection-about-page {
   margin-top: 10px;
+}
+
+@media (min-width:1020px) {
+  .about-use-paregraph{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .about-us-images {
+    height: 100vh;
+  }
+  .red-shape-about-us {
+    width: 450px;
+  }
+  .girl-image {
+    width: 100%;
+    height: auto;
+  }
+  
 }

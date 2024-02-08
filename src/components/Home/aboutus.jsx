@@ -1,11 +1,12 @@
 import React from "react";
-import "../style/aboutus.css";
-import image2 from "../images/Red Shape.png";
-import image3 from "../images/Shweta Tiwari.png";
-import TextBootomIcon from "../images/Shape.png";
+import "../../style/aboutus.css";
+import image2 from "../../images/Red Shape.png";
+import image3 from "../../images/Shweta Tiwari.png";
+import TextBootomIcon from "../../images/Shape.png";
 // import NewImage1 from "../images/New_1.jpg";
 // import NewImage2 from "../images/new_about_2.png";
 // import NewImage3 from "../images/new_3.jpg";
+
 
 function AboutUs() {
   // const [scrollPosition, setScrollPosition] = useState(0);

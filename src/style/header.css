@@ -7,29 +7,14 @@
   transform: scale(1.2);
 }
 
-/* .back-ground-tea-image {
-  background-image: url("../images/Homepage Banner.png");
-  width: 100%;
-  height: 100vh;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;  
-} */
 .back-ground-tea-image {
-  /* background-image: url("../images/Homepage Banner.png"); */
   background-image: url("../images/TEA\ SMOKE\ 2.gif");
-  /* background-image: url("../images/TEA\ SMOKE\ 3.mp4"); */
   width: 100%;
   height: 100vh;
-  /* background-size: 100% 100%; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-attachment: fixed; */
-  /* background-attachment: scroll; */
 }
-
 
 .vertical-navbar {
   position: absolute;
@@ -53,8 +38,36 @@
 
 .vertical-navbar li {
   padding: 10px 20px;
-  /* text-align: center; */
   border-bottom: 1px solid #46464636;
+}
+/* navbar for big screen */
+.main_navbar_for_big_screen{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  color: white;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.big_screen_navbar_ul{
+  display: flex;
+  /* background: #000; */
+  justify-content: space-around;
+  
+}
+.navbar_for_big_screen_left_side_div{
+  max-width: 100%;
+  padding: 0px 30px;
+}
+.navbar_for_big_screen_right_side_div{
+  width: 70%;
+  padding-top: 20px;
+
+}
+.Header_logo_for_big_screen{
+  width: 100px;
 }
 
 @media (max-width: 500px) {

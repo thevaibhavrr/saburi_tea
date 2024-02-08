@@ -1,19 +1,19 @@
 import React from 'react'
-import Our_Product_Header from '../components/ourProduct_coponet/our_product_Header'
+import OurProductHeader from '../components/ourProductcoponet/ourproductHeader'
 // import Tales_of_tea from '../components/ourProduct_coponet/tales_of_tea'
 // import SpiceSensations from '../components/ourProduct_coponet/SpiceSensations'
 import Footer from '../components/footer'
 // import SoyaChunk from '../components/ourProduct_coponet/Soya_Chunks'
-import Main_out_product from '../components/ourProduct_coponet/main_out_product'
+import MainOurproduct from '../components/ourProductcoponet/mainourproduct'
 
 function Ourproduct() {
   return (
     <div>
-      <Our_Product_Header/>
+      <OurProductHeader/>
       {/* <Tales_of_tea/>
       <SpiceSensations/>
       <SoyaChunk/> */}
-      <Main_out_product/>
+      <MainOurproduct/>
       <Footer/>
       
     </div>

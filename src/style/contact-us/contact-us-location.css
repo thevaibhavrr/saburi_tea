@@ -1,14 +1,23 @@
 .location-contact-us{
-    /* display: flex; */
     padding: 50px 15px;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 400px; */
-    /* padding: 50px 0px ; */
+   
 }
 .location-iframe{
     border-radius: 10px;
     width: 100%;
     min-height: 200px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media (min-width:768px) {
+.location-iframe{
+    min-height: 300px;
+    padding: 5px;
+
+}
+}
+@media (min-width:1023px) {
+.location-iframe{
+    min-height: 450px;
+    padding: 10px;
+}
 }

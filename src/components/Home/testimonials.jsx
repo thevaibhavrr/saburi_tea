@@ -1,11 +1,11 @@
-import "../style/instaLive.css";
+import "../../style/instaLive.css";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import image1 from "../images/Testimonial.png";
-import TextBootomIcon from "../images/Shape.png";
+import image1 from "../../images/Testimonial.png";
+import TextBootomIcon from "../../images/Shape.png";
 // import UserImage from "../images/User Img.png";
 
 export default function Testimonial() {

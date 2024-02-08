@@ -1,13 +1,13 @@
-import "../style/our-product.css";
+import "../../style/our-product.css";
 import React, {  useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import image1 from "../images/SABURI ELAICHI 10RS.png";
-import image2 from "../images/SABURI CLOVE 10RS.png";
-import image3 from "../images/Saburi Ajwain 10 RS.png";
-import TextBootomIcon from "../images/Shape.png";
+import image1 from "../../images/SABURI ELAICHI 10RS.png";
+import image2 from "../../images/SABURI CLOVE 10RS.png";
+import image3 from "../../images/Saburi Ajwain 10 RS.png";
+import TextBootomIcon from "../../images/Shape.png";
 
 export default function OurProduct() {
   const [swiperRef, setSwiperRef] = useState(null);

@@ -13,7 +13,9 @@ function Header() {
   return (
     <>
       <div>
-        {/* navbar */}
+        {/* navbar for small screen */}
+        <div className="card_for_small_screen" >
+
         <div className="back-ground-tea-image">
           <nav className="navbar navbar-expand-lg navbar-light">
             <div
@@ -62,7 +64,7 @@ function Header() {
                     className=" text-decoration-none text-white"
                     to={"/about-us"}
                   >
-                  <li>About</li>
+                  <li>ABOUT</li>
                   </NavLink>
                   <NavLink
                     className=" text-decoration-none text-white"
@@ -85,6 +87,52 @@ function Header() {
             )}
           </nav>
         </div>
+        </div>
+
+        {/* for big screen navbar */}
+        <div className="card_for_big_screen back-ground-tea-image" >
+        <div className="main_navbar_for_big_screen " >
+          {/* left */}
+          <div className="navbar_for_big_screen_left_side_div" >
+          <img src={mainIcon} alt="" srcset="" className="Header_logo_for_big_screen" />
+          </div>
+          {/* right */}
+          <div className="navbar_for_big_screen_right_side_div" >
+            <ul className="big_screen_navbar_ul">
+                <NavLink
+                  className=" text-decoration-none text-white"
+                  to={"/"}
+                >
+                <li>HOME</li>
+                </NavLink>
+                  <NavLink
+                    className=" text-decoration-none text-white"
+                    to={"/about-us"}
+                  >
+                  <li>ABOUT</li>
+                  </NavLink>
+                  <NavLink
+                    className=" text-decoration-none text-white"
+                    to={"/our-product"}
+                  >
+                    <li>PRODUCT</li>
+                  </NavLink>
+
+                  <li>E-CATALOG</li>
+                  <li>Event</li>
+
+                  <NavLink
+                    className=" text-decoration-none text-white"
+                    to={"/contact-us"}
+                  >
+                  <li>Contact US</li>
+                  </NavLink>
+            </ul>
+          </div>
+          
+        </div>
+        </div>
+
       </div>
     </>
   );
