@@ -113,8 +113,14 @@ iframe  */
   align-items: flex-end;
   /*align-items: center;
   */color: white;
-
 }
 .our-collection-icons {
   filter: invert(1);
+}
+
+/* for laptop */
+@media (min-width:768px) {
+  .second-about-us-image {
+    background-image: url("../images/home_tea_image_for_big_screen.webp");
+  }
 }

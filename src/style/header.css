@@ -15,6 +15,11 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (min-width: 768px) {
+  .back-ground-tea-image {
+  background-size: 100% 100%;
+  }
+ }
 
 .vertical-navbar {
   position: absolute;

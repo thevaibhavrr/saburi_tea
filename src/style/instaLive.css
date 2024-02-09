@@ -4,12 +4,11 @@
 }
 
 .testiminal_user_image_div {
- 
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center; 
+  text-align: center;
 }
 
 .testiminal_user_image {
@@ -22,13 +21,15 @@
   margin-bottom: 25px;
   font-size: 20px;
 }
-
-@media (max-width: 500px) {
+/* for small screen */
+@media (max-width: 600px) {
   .user_info-message {
     font-size: 10px;
     margin-bottom: 15px;
   }
 }
+/* for tablet screen */
+
 @media (min-width: 768px) {
   .user_info-message {
     font-size: 14px;
@@ -41,19 +42,18 @@
     display: block;
   }
   .testiminal_image {
-    width: 70%; 
+    width: 70%;
   }
   .testiminal_user_image_div {
     transform: translate(-80%, -50%);
   }
-  
+
   .testiminal_user_image_div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
- 
 }
 
 @media (min-width: 1024px) {
