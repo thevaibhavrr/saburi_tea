@@ -59,17 +59,7 @@ function AboutUs() {
               // data-aos-offset="200"
               // data-aos-duration="700"
             >
-              In May 2002, Radha Krishna made its entry in the branded Atta
-              segment and within a short period of time became the number one
-              branded packaged atta across the country. ning.n May 2002, Radha
-              Krishna made its entry in the branded Atta segment and within a
-              short period of time became the number one branded packaged atta
-              across the country.In May 2002, Radha Krishna made its entry in
-              the branded Atta segment and within a short period of time became
-              the number one branded packaged atta across the country. ning.n
-              May 2002, Radha Krishna made its entry in the branded Atta segment
-              and within a short period of time became the number one branded
-              packaged atta across the country.
+             we are a team of experts working towards providing the best of products to the market. Our products are branded as ‘SABURI’ which is synonymous with perseverance to provide best quality forever.We make every effort to give you an experience of the highest standards.We have been striving with dedication to bring the best of blends to the customers. Our products are safe to consume, produced under the most hygienic conditions and are going to bring on the ultimate taste to your palette.Our production team is highly qualified and experienced to deliver excellent products,which are packed and sealed perfectly for you to savour.
             </p>
           </div>
         </div>
