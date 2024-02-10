@@ -35,7 +35,7 @@ export default function OurProduct() {
 
   return (
     <>
-      <div className="main-slider-section-start">
+      <div className="main-slider-section-start pt-3">
         <div className="main-slider-div">
           <h3 className="heading-text"
             data-aos="flip-up"

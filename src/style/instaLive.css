@@ -42,10 +42,10 @@
     display: block;
   }
   .testiminal_image {
-    width: 70%;
+    /* width: 0%; */
   }
   .testiminal_user_image_div {
-    transform: translate(-80%, -50%);
+    transform: translate(-50%, -50%);
   }
 
   .testiminal_user_image_div {
@@ -58,7 +58,7 @@
 
 @media (min-width: 1024px) {
   .user_info-message {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
   .testiminal_user_image {
@@ -68,7 +68,7 @@
 }
 @media (min-width: 1440px) {
   .user_info-message {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
   .testiminal_user_image {

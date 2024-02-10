@@ -1,12 +1,14 @@
 .main-slider-div {
-  padding: 14px;
+  padding: 20px 14px;
   position: relative;
   margin: 0px 10px;
+  
 }
 .main-slider-section-start {
   background: var(--gay-main-bg-color);
   /* margin-bottom: 10px; */
   padding-bottom: 10px;
+
 }
 .our-product-text {
   font-size: 20px;
@@ -35,6 +37,7 @@ iframe  */
 .slider_images{
   display: block;
   width: 100%;
+  margin-top: 30px;
   object-fit: cover;
 }
 
@@ -104,19 +107,16 @@ iframe  */
   width: 100%;
   height: 100vh;
   background-size: 100% 100%;
-  /*background-size: cover;
-  */background-repeat: no-repeat;
+background-repeat: no-repeat;
   background-position: center;
-  /* background-attachment: fixed; */
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  /*align-items: center;
-  */color: white;
+  color: white;
 }
-.our-collection-icons {
+/* .our-collection-icons {
   filter: invert(1);
-}
+} */
 
 /* for laptop */
 @media (min-width:768px) {

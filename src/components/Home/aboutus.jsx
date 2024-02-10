@@ -7,7 +7,6 @@ import TextBootomIcon from "../../images/Shape.png";
 // import NewImage2 from "../images/new_about_2.png";
 // import NewImage3 from "../images/new_3.jpg";
 
-
 function AboutUs() {
   // const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -98,22 +97,20 @@ function AboutUs() {
               //  data-aos-delay="200"
               data-aos-duration="1500"
             >
-              <img src={image3} alt="tea" srcset="" className="girl-image" />
+              <img src={image3} alt="tea" srcset="" className="girl-image " />
             </div>
-            
           </div>
-         
         </div>
       </div>
-        <div className=" text-center second-about-us-image" >
-            {/* <img src={NewImage2} alt="style" className="w-100 h-50 img-fluid" /> */}
+      <div className=" text-center second-about-us-image">
+        {/* <img src={NewImage2} alt="style" className="w-100 h-50 img-fluid" /> */}
         {/* our collection text */}
-        <div className="our-collection-about-page  text-center">
+        {/* <div className="our-collection-about-page  text-center">
           <h3
             className="heading-text"
             data-aos="flip-up"
             data-aos-offset="200"
-            //  data-aos-delay="200" 
+            //  data-aos-delay="200"
             data-aos-duration="1700"
           >
             Our Collection
@@ -131,10 +128,8 @@ function AboutUs() {
               className="text-icon-bottom our-collection-icons"
             />
           </div>
-         
-        </div>
-        </div>
-
+        </div> */}
+      </div>
     </>
   );
 }

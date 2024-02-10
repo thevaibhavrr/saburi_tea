@@ -7,7 +7,7 @@
 .second-text-content-div-about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .about-use-paregraph {

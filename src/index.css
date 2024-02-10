@@ -35,7 +35,7 @@ code {
 
 .text-icon-bottom {
   width: 155px;
-  margin-top: -30px;
+  margin: -30px;
 }
 
 @media (min-width:1023px) {
@@ -43,8 +43,8 @@ code {
     font-size: 38px;
   }
   .text-icon-bottom {
-    width: 205px;
-    margin-top: -20px;
+    width: 155px;
+    /* margin: 5px; */
   }
 }
 

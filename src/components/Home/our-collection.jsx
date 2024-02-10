@@ -3,6 +3,9 @@ import "../../style/ourcollection.css";
 import image1 from "../../images/our_collection_1.png";
 import image2 from "../../images/our_collection_2.png";
 import image3 from "../../images/our_collection_3.png";
+import TextBootomIcon from "../../images/Shape.png";
+
+import { Link } from "react-router-dom";
 function Ourcollection() {
   useEffect(() => {
     // Run animation on component mount or update
@@ -20,6 +23,34 @@ function Ourcollection() {
   return (
     <>
       <div className="main-our-product-section">
+      <div className=" text-center second-about-us-images">
+        {/* <img src={NewImage2} alt="style" className="w-100 h-50 img-fluid" /> */}
+        {/* our collection text */}
+        <div className="our-collection-about-page  text-center">
+          <h3
+            className="heading-text"
+            data-aos="flip-up"
+            data-aos-offset="200"
+            //  data-aos-delay="200"
+            data-aos-duration="1700"
+          >
+            Our Collection
+          </h3>
+          <div
+            className="text-style-icon-div"
+            data-aos="flip-down"
+            data-aos-offset="200"
+            //  data-aos-delay="200"
+            data-aos-duration="1700"
+          >
+            <img
+              src={TextBootomIcon}
+              alt="style"
+              className="text-icon-bottom our-collection-icons"
+            />
+          </div>
+        </div>
+      </div>
         {/*  main div*/}
         <div className="main-second-our-product-div">
           {/* left side */}
@@ -42,7 +73,9 @@ function Ourcollection() {
               {/* text */}
               <div className="">
                 <h3 className={"our-collection-card-text"}>Saburi Tea</h3>
+                <Link to="/our-product" >
                 <button className="explore-more-button">Explore More</button>
+                </Link>
               </div>
             </div>
             {/* second card */}
@@ -63,7 +96,9 @@ function Ourcollection() {
               {/* text */}
               <div className="">
                 <h3 className={"our-collection-card-text"}>Saburi Mirch</h3>
+                <Link to="/our-product" >
                 <button className="explore-more-button">Explore More</button>
+                </Link>
               </div>
             </div>
             {/* third card */}
@@ -83,8 +118,10 @@ function Ourcollection() {
               </div>
               {/* text */}
               <div className="">
-                <h3 className={"our-collection-card-text"}>Saburi Chunks</h3>
+                <h3 className="our-collection-card-text">Saburi Chunks</h3>
+                <Link to="/our-product" >
                 <button className="explore-more-button">Explore More</button>
+                </Link>
               </div>
             </div>
           </div>

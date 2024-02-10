@@ -18,11 +18,11 @@ export default function InstaLive() {
     }
   };
 
+  const s5= "https://scontent.cdninstagram.com/v/t39.30808-6/423240295_859814299488201_5478663236070619792_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=dCv6hYmbFc4AX9x4P9y&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzI5MjE3MzgwNDgwNDA4MjcxOQ%3D%3D.2-ccb7-5&oh=00_AfAZol5Sy0ndm2HyfKE-5ydHRX9PYXpiz_wZVSvbelj8pQ&oe=65CAA303&_nc_sid=10d13b"
+  const s4 = "https://scontent.cdninstagram.com/v/t39.30808-6/425504385_864786115657686_5451331287171049383_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=106&_nc_ohc=McgCpWAFRPkAX_zHrkD&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzI5NzMwMjEzOTc0NjkwNDEzMw%3D%3D.2-ccb7-5&oh=00_AfAHcK_xRvRRM_RzNqHg9b3YKL3eowpxKs7ijwZ73zq3Ug&oe=65C9C305&_nc_sid=10d13b"
   const s1 =
-    "https://scontent.cdninstagram.com/v/t39.30808-6/412034277_829163182553313_7801524505859840587_n.jpg?stp=dst-jpg_e15&efg=e30&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=iQ486wmR7skAX_9lKUD&edm=APs17CUAAAAA&ccb=7-5&oh=00_AfDjEOg4QCb6NdhdP0aVdowJuplUgpUHOuX3R2xlWJAkQw&oe=65B8441F&_nc_sid=10d13b";
-  const s3 =
-    "https://scontent.cdninstagram.com/v/t39.30808-6/415054086_841351844667780_7938624697302372151_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDAweDEwMDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=100&_nc_ohc=xxWz4tOuodkAX8zsH9Z&edm=APs17CUAAAAA&ccb=7-5&oh=00_AfBe5e4PS7v0q4XO2lLaoigq-M8tw8xD5dBt34HC9xfMwg&oe=65B7A4F8&_nc_sid=10d13b";
-  const images = [s1,s3 ,InstaImage3,InstaImage4, s1, s3, InstaImage3,InstaImage4];
+    "https://scontent.cdninstagram.com/v/t39.30808-6/426519309_866156158854015_6802541905004229679_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=GQbnScsLyWYAX_MDMm8&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzI5ODcwMjQ4NzA4Mjk1MjUzOA%3D%3D.2-ccb7-5&oh=00_AfAq14N4aNK1VjOhvOmnoZCg0jMohgliEi6RA5tXl0h6Tg&oe=65CAF070&_nc_sid=10d13b";
+  const images = [s4,s5,InstaImage3,InstaImage4,s4,s5, s1, InstaImage3,InstaImage4];
 
   const handlePrevClick = () => {
     if (swiperRef) {

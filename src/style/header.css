@@ -18,6 +18,8 @@
 @media (min-width: 768px) {
   .back-ground-tea-image {
   background-size: 100% 100%;
+  background-image: url("../images/home_banner_for_big_screen.gif");
+
   }
  }
 

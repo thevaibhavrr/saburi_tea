@@ -69,7 +69,9 @@
 .explore-more-button {
   background: #d8c9aa;
   border: none;
-  font-weight: 300;
+  font-weight: 200;
+  font-family: cursive;
+
 }
 
 .our-collection-card-text {

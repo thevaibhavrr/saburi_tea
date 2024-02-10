@@ -69,31 +69,15 @@ export default function Testimonial() {
             <Swiper
               onSwiper={setSwiperRef}
               // onSlideChange={handleSlideChange}
-              slidesPerView={1.6}
+              slidesPerView={2.2}
               initialSlide={1}
               centeredSlides={true}
-              spaceBetween={20}
+              spaceBetween={100}
               pagination={{
                 type: "fraction",
               }}
               className="mySwiper"
             >
-              {/* {images.map((image, index) => (
-                <SwiperSlide key={index} style={{ position: "relative" }}>
-                  <img src={image} alt="" className="testiminal_image" />
-                  <div className="testiminal_user_image_div">
-                    <img
-                      src={UserImage}
-                      alt="user_image"
-                      className="testiminal_user_image"
-                    />
-                    <div className="user_info">
-                      <div className="w-100 user_info-message" >Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!  </div>
-                      <h6>Vaibhv Rathore</h6>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))} */}
               {images.map((testimonial, index) => (
                 <SwiperSlide key={index} style={{ position: "relative" }}>
                   <img
