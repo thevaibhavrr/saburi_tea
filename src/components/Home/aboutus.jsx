@@ -31,21 +31,21 @@ function AboutUs() {
     <>
       <div className="main-about-page">
         {/* content */}
-        <div className="main-text-content-div-about">
+        <div className="main-text-content-div-about" >
           <div className="second-text-content-div-about">
             <h3
               className="heading-text"
-              data-aos="flip-up"
-              data-aos-offset="200"
-              data-aos-duration="500"
+              // data-aos="flip-up"
+              // data-aos-offset="200"
+              // data-aos-duration="500"
             >
               About US
             </h3>
             <div
               className="text-center"
-              data-aos="flip-down"
-              data-aos-offset="200"
-              data-aos-duration="500"
+              // data-aos="flip-down"
+              // data-aos-offset="200"
+              // data-aos-duration="500"
             >
               <img
                 src={TextBootomIcon}
@@ -80,17 +80,15 @@ function AboutUs() {
               alt="tea"
               srcset=""
               className="red-shape-about-us"
-              data-aos="flip-left"
-              data-aos-offset="200"
-              //  data-aos-delay="200"
-              data-aos-duration="1000"
+              // data-aos="flip-left"
+              // data-aos-offset="200"
+              // data-aos-duration="1000"
             />
             <div
               className="about-us-girl-image-div"
-              data-aos="zoom-out-down"
-              data-aos-offset="200"
-              //  data-aos-delay="200"
-              data-aos-duration="1500"
+              // data-aos="zoom-out-down"
+              // data-aos-offset="200"
+              // data-aos-duration="1500"
             >
               <img src={image3} alt="tea" srcset="" className="girl-image " />
             </div>

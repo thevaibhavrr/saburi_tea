@@ -29,19 +29,17 @@ function Ourcollection() {
         <div className="our-collection-about-page  text-center">
           <h3
             className="heading-text"
-            data-aos="flip-up"
-            data-aos-offset="200"
-            //  data-aos-delay="200"
-            data-aos-duration="1700"
+            // data-aos="flip-up"
+            // data-aos-offset="200"
+            // data-aos-duration="1700"
           >
             Our Collection
           </h3>
           <div
             className="text-style-icon-div"
-            data-aos="flip-down"
-            data-aos-offset="200"
-            //  data-aos-delay="200"
-            data-aos-duration="1700"
+            // data-aos="flip-down"
+            // data-aos-offset="200"
+            // data-aos-duration="1700"
           >
             <img
               src={TextBootomIcon}
