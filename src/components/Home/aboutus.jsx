@@ -35,17 +35,17 @@ function AboutUs() {
           <div className="second-text-content-div-about">
             <h3
               className="heading-text"
-              // data-aos="flip-up"
-              // data-aos-offset="200"
-              // data-aos-duration="500"
+              data-aos="flip-up"
+              data-aos-offset="200"
+              data-aos-duration="500"
             >
               About US
             </h3>
             <div
               className="text-center"
-              // data-aos="flip-down"
-              // data-aos-offset="200"
-              // data-aos-duration="500"
+              data-aos="flip-down"
+              data-aos-offset="200"
+              data-aos-duration="500"
             >
               <img
                 src={TextBootomIcon}
@@ -55,9 +55,9 @@ function AboutUs() {
             </div>
             <p
               className="about-use-paregraph"
-              // data-aos="zoom-out-down"
-              // data-aos-offset="200"
-              // data-aos-duration="700"
+              data-aos="zoom-in-down"
+              data-aos-offset="200"
+              data-aos-duration="700"
             >
              we are a team of experts working towards providing the best of products to the market. Our products are branded as ‘SABURI’ which is synonymous with perseverance to provide best quality forever.We make every effort to give you an experience of the highest standards.We have been striving with dedication to bring the best of blends to the customers. Our products are safe to consume, produced under the most hygienic conditions and are going to bring on the ultimate taste to your palette.Our production team is highly qualified and experienced to deliver excellent products,which are packed and sealed perfectly for you to savour.
             </p>
@@ -70,15 +70,15 @@ function AboutUs() {
               alt="tea"
               srcset=""
               className="red-shape-about-us"
-              // data-aos="flip-left"
-              // data-aos-offset="200"
-              // data-aos-duration="1000"
+              data-aos="flip-left"
+              data-aos-offset="200"
+              data-aos-duration="1000"
             />
             <div
               className="about-us-girl-image-div"
-              // data-aos="zoom-out-down"
-              // data-aos-offset="200"
-              // data-aos-duration="1500"
+              data-aos="zoom-out-down"
+              data-aos-offset="200"
+              data-aos-duration="1500"
             >
               <img src={image3} alt="tea" srcset="" className="girl-image " />
             </div>
