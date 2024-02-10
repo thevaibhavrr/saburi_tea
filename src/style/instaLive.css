@@ -93,3 +93,9 @@
     margin-bottom: 20px;
   }
 }
+@media (max-width: 400px) {
+  .user_info-message {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+}
