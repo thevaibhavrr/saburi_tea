@@ -37,7 +37,6 @@ function AboutUs() {
               className="heading-text"
               data-aos="flip-up"
               data-aos-offset="200"
-              //  data-aos-delay="200"
               data-aos-duration="500"
             >
               About US
@@ -46,7 +45,6 @@ function AboutUs() {
               className="text-center"
               data-aos="flip-down"
               data-aos-offset="200"
-              //  data-aos-delay="200"
               data-aos-duration="500"
             >
               <img
@@ -55,13 +53,11 @@ function AboutUs() {
                 className="text-icon-bottom"
               />
             </div>
-            {/* text */}
             <p
               className="about-use-paregraph"
-              data-aos="zoom-out-down"
-              data-aos-offset="200"
-              //  data-aos-delay="200"
-              data-aos-duration="700"
+              // data-aos="zoom-out-down"
+              // data-aos-offset="200"
+              // data-aos-duration="700"
             >
               In May 2002, Radha Krishna made its entry in the branded Atta
               segment and within a short period of time became the number one
@@ -77,7 +73,6 @@ function AboutUs() {
             </p>
           </div>
         </div>
-        {/* images */}
         <div className="about-us-images">
           <div className="about-us-red-angel-image">
             <img

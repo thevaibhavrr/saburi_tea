@@ -10,7 +10,7 @@ function Header() {
     setShowVerticalNavbar(!showVerticalNavbar);
   };
 
-  return (
+  return ( 
     <>
       <div>
         {/* navbar for small screen */}
