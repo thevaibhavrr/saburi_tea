@@ -66,9 +66,10 @@ export default function Testimonial() {
             />
           </div>
           <div className="our-product-slider-start ">
+            {/* big screen */}
+            <div className="testimonail_for_big_screen" >
             <Swiper
               onSwiper={setSwiperRef}
-              // onSlideChange={handleSlideChange}
               slidesPerView={2.2}
               initialSlide={1}
               centeredSlides={true}
@@ -101,6 +102,44 @@ export default function Testimonial() {
                 </SwiperSlide>
               ))}
             </Swiper>
+            </div>
+            {/* small screen */}
+            <div className="testimonail_for_small_screen" >
+            <Swiper
+              onSwiper={setSwiperRef}
+              slidesPerView={1.2}
+              initialSlide={1}
+              centeredSlides={true}
+              spaceBetween={20}
+              pagination={{
+                type: "fraction",
+              }}
+              className="mySwiper"
+            >
+              {images.map((testimonial, index) => (
+                <SwiperSlide key={index} style={{ position: "relative" }}>
+                  <img
+                    src={testimonial.src}
+                    alt=""
+                    className="testiminal_image "
+                  />
+                  <div className="testiminal_user_image_div">
+                    <img
+                      src={UserImage}
+                      alt="user_image"
+                      className="testiminal_user_image"
+                    />
+                    <div className="user_info">
+                      <div className="w-100 user_info-message">
+                        {testimonial.message}
+                      </div>
+                      <h6>{testimonial.name}</h6>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            </div>
             {/* left */}
             <div className="prev-next-buttons">
               <div>
