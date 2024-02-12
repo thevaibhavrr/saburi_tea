@@ -67,3 +67,18 @@
   }
   
 }
+/* for very large screen */
+@media (min-width: 2000px) {
+  .about-use-paregraph{
+    font-size: 30px;
+    padding: 10px;
+  }
+  .red-shape-about-us {
+    width: 650px;
+  }
+  .girl-image {
+    width: 100%;
+    height: auto;
+  }
+  
+}

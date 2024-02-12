@@ -4,38 +4,9 @@
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
-  position: relative; 
+  position: relative;
   /* background-attachment: fixed; */
 }
-
-/* .main-our-product-section {
-  position: relative;
-} */
-/* 
-.main-our-product-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(64, 177, 64, 0.2); 
-  z-index: 0.2; 
-  background-position: center;
-
-}
-
-.main-our-product-section {
-  background-image: url("../images/Leaf.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  z-index: 0.1; 
-  height: auto;
-  position: relative;
-} */
-
 
 .tea-images {
   width: 500px;
@@ -71,7 +42,6 @@
   border: none;
   font-weight: 200;
   font-family: cursive;
-
 }
 
 .our-collection-card-text {
@@ -97,7 +67,7 @@
   border-style: solid;
   border-color: black;
   z-index: -1;
-  min-width: 450px; 
+  min-width: 450px;
   position: absolute;
   top: 50%;
   left: 0;
@@ -109,25 +79,23 @@
     width: 260px;
     height: auto;
   }
-  
-.right-side-our-product-div {
-  min-height: 350px;
-  min-width: 100px;
-  top: 50%;
-}
-.left-side-our-product-div {
-  min-height: 950px;
-  min-width: 220px;
-  top: 53%; 
-}
-.our-collection-cards {
-  gap: 20px;
-}
+
+  .right-side-our-product-div {
+    min-height: 350px;
+    min-width: 100px;
+    top: 50%;
+  }
+  .left-side-our-product-div {
+    min-height: 950px;
+    min-width: 220px;
+    top: 53%;
+  }
+  .our-collection-cards {
+    gap: 20px;
+  }
 }
 
-@media (min-width: 552px) 
-/* and (max-width: 769px) */
- {
+@media (min-width: 552px) /* and (max-width: 769px) */ {
   .tea-images {
     width: 390px;
     height: auto;
@@ -150,18 +118,16 @@
   }
 }
 
-@media (min-width: 1023px) 
-/* and (max-width: 769px) */
- {
+@media (min-width: 1023px) /* and (max-width: 769px) */ {
   .tea-images {
     width: 490px;
   }
   .left-side-our-product-div {
-    min-height: 1600px;
+    min-height: 1700px;
     min-width: 400px;
   }
   .right-side-our-product-div {
-    min-height: 560px;
+    min-height: 690px;
     min-width: 280px;
   }
   .our-collection-cards {
@@ -172,3 +138,27 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .tea-images {
+    width: 650px;
+  }
+  .left-side-our-product-div {
+    min-height: 2100px;
+    min-width: 500px;
+  }
+  .right-side-our-product-div {
+    min-height: 890px;
+    min-width: 450px;
+  }
+  .our-collection-cards {
+    gap: 50px;
+  }
+  .our-collection-card-text {
+    font-size: 60px;
+  }
+
+  .explore-more-button {
+    font-weight: 300;
+    font-size: 30px;
+  }
+}

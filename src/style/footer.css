@@ -100,3 +100,11 @@ li {
     padding: 6px;
   }
 }
+@media (min-width: 2000px) {
+  .main-footer-div{
+    font-size: 30px;
+  }
+  .footer-icon-logo ,.footer-icon-social-media{
+    width: 300px;
+  }
+}

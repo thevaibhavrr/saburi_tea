@@ -89,6 +89,15 @@
     height: auto;
   }
 }
+@media (min-width: 2000px) {
+  .Header_logo_for_big_screen {
+    width: 180px ;
+    height: auto;
+  }
+  .main_navbar_for_big_screen{
+    font-size: 25px;
+  }
+}
 
 @keyframes fadeIn {
   from {

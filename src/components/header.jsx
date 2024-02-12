@@ -9,7 +9,7 @@ function Header() {
   const toggleVerticalNavbar = () => {
     setShowVerticalNavbar(!showVerticalNavbar);
   };
-
+ 
   return ( 
     <>
       <div>
