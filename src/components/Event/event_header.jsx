@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "../../style/our-product/our-product/our-product-header.css";
+import "../../style/event/event-header.css";
 import mainIcon from "../../images/S-logo.png";
-import Our_product_Png from "../../images/our-product-img/our-product-png-removebg-preview.png";
+import Event_Image from "../../images/Photo_Gallery/Events.png";
 import { NavLink } from "react-router-dom";
 
-function OurProductHeader() {
+function Eventheader() {
   const [showVerticalNavbar, setShowVerticalNavbar] = useState(false);
 
   const toggleVerticalNavbar = () => {
@@ -16,7 +16,7 @@ function OurProductHeader() {
       <div>
         {/* navbar */}
         <div className="card_for_small_screen">
-          <div className="back-our-product-image">
+          <div className="back-event-image">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div
                 className="d-flex justify-content-around w-100"
@@ -46,7 +46,7 @@ function OurProductHeader() {
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-filter-right"
+                    class="bi bi-filter-right navbar-icon"
                     viewBox="0 0 16 16"
                   >
                     <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5m0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5m0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5" />
@@ -97,18 +97,19 @@ function OurProductHeader() {
                 </div>
               )}
             </nav>
-            <div className="contact-us-icon-header-logo">
+            {/* contact us image */}
+            <div className="Event_logo_div">
               <img
-                src={Our_product_Png}
+                src={Event_Image}
                 alt="contact-us"
-                className="contact-us-icon"
+                className="Event_header_icon"
               />
             </div>
           </div>
         </div>
 
         {/* for big screen navbar */}
-        <div className="card_for_big_screen back-our-product-image">
+        <div className="card_for_big_screen back-event-image">
           <div className="main_navbar_for_big_screen ">
             {/* left */}
             <div className="navbar_for_big_screen_left_side_div">
@@ -156,8 +157,13 @@ function OurProductHeader() {
               </ul>
             </div>
           </div>
-          <div className="contact-us-icon-header-logo" >
-            <img src={Our_product_Png} alt="contact-us" className="contact-us-icon" />
+          {/* contact us image */}
+          <div className="Event_logo_div">
+            <img
+              src={Event_Image}
+              alt="contact-us"
+              className="Event_header_icon"
+            />
           </div>
         </div>
       </div>
@@ -165,4 +171,4 @@ function OurProductHeader() {
   );
 }
 
-export default OurProductHeader;
+export default Eventheader;

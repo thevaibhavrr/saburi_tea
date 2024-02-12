@@ -74,7 +74,13 @@ function Aboutheader() {
                 </NavLink>
 
                 <li>E-CATALOG</li>
-                <li>Event</li>
+                <NavLink
+                      className=" text-decoration-none text-white"
+                      to={"/event"}
+                    >
+                      <li>Event</li>
+                    </NavLink>
+
 
                 <NavLink
                   className=" text-decoration-none text-white"
@@ -120,7 +126,13 @@ function Aboutheader() {
                   </NavLink>
 
                   <li>E-CATALOG</li>
-                  <li>Event</li>
+                  <NavLink
+                      className=" text-decoration-none text-white"
+                      to={"/event"}
+                    >
+                      <li>Event</li>
+                    </NavLink>
+
 
                   <NavLink
                     className=" text-decoration-none text-white"
