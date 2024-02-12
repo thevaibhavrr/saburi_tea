@@ -8,7 +8,7 @@
 .have_a_question_main_form_before_start {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
 .have_a_question_main_form div {
@@ -31,14 +31,33 @@ textarea {
   height: 100%;
 }
 .have_a_question_save_button {
-  /* width: 10px; */
   cursor: pointer;
   padding: 10px 45px;
   border-radius: 13px;
   background: #367125;
   color: white;
   font-weight: bold;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -9px;
+}
+
+@media (min-width: 2000px) {
+  .have_a_question_main_form div {
+    margin: 30px 0px;
+  }
+  .have_a_question_main_form_input_div input,
+  textarea {
+    width: 500px;
+    padding: 25px;
+    font-size: 25px;
+  }
+  .have_a_question_text {
+    font-size: 70px;
+  }
+  .have_a_question_save_button {
+    padding: 20px 145px;
+    font-size: 35px;
+  }
+  .main-have-a-question-contact-us{
+    background-size: cover;
+  }
 }

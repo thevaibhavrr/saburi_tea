@@ -112,7 +112,7 @@
     border-radius: 200px;
   }
   .tales_of_tea_image {
-    width: 110px;
+    width: 120px;
   }
 
   .tales_of_tea_card_paregraph {
@@ -125,4 +125,31 @@
   .corner_icon {
     width: 120px;
   }
+}
+@media (min-width: 2000px) {
+  .tales_of_tea_card {
+    height: 380px;
+    width: 380px;
+    border-radius: 200px;
+  }
+  .tales_of_tea_image {
+    width: 180px;
+  }
+
+  .tales_of_tea_card_paregraph {
+    font-size: 20px;
+  }
+  .Tales_second_heading {
+    font-size: 26px;
+  }
+  .corner_icon {
+    width: 170px;
+  }
+  .main_tales_of_tea_bg_image_full_page {
+    background-size: 100% 100%;
+  }
+  .main_tales_of_tea_heading {
+    font-size: 100px;
+  }
+
 }

@@ -20,3 +20,9 @@
   .navbar-icon{
     color: white;
   }
+
+@media (min-width: 2000px) {
+  .contact-us-icon{
+    width: 600px;
+  }
+}

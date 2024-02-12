@@ -27,3 +27,17 @@
   font-family: var(--our-address-font-family);
   font-weight: 400;
 }
+@media (min-width: 2000px) {
+.main-address-upper-side-paregraph {
+  font-size: 30px;
+}
+.main-address-upper-side>h3{
+  font-size: 40px;
+}
+.main-address-bottom-side>h2{
+  font-size: 40px;
+}
+.main-address-upper-side{
+  width: 100%;
+}
+}
