@@ -159,11 +159,12 @@ function Eventheader() {
           </div>
           {/* contact us image */}
           <div className="Event_logo_div">
-            <img
+            {/* <img
               src={Event_Image}
               alt="contact-us"
               className="Event_header_icon"
-            />
+            /> */}
+            <h1  className="typing-animation">Events</h1>
           </div>
         </div>
       </div>
