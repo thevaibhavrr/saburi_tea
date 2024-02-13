@@ -30,7 +30,6 @@
   }
 }
 /* for tablet screen */
-
 @media (min-width: 768px) {
   .user_info-message {
     font-size: 17px;
@@ -39,7 +38,7 @@
   .testiminal_user_image {
     filter: grayscale(100%);
     padding: 10px;
-    width: 150px;
+    width: 180px;
     display: block;
   }
   .testiminal_image {
@@ -57,6 +56,15 @@
   }
 }
 
+@media (min-width: 930px) {
+  .testiminal_user_image {
+    width: 110px;
+  }
+  .user_info-message {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
 @media (min-width: 1024px) {
   .user_info-message {
     font-size: 16px;
