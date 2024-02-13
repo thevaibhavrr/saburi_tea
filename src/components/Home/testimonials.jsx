@@ -6,7 +6,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import image1 from "../../images/Testimonial.png";
 import TextBootomIcon from "../../images/Shape.png";
-import UserImage from "../../images/User Img.png";
 
 export default function Testimonial() {
   const [swiperRef, setSwiperRef] = useState(null);
@@ -19,7 +18,6 @@ export default function Testimonial() {
   // };
 
   // const images = [image1, image1, image1, image1, image1, image1];
-  const user3 = ""
   const images = [
     {
       src: image1,
