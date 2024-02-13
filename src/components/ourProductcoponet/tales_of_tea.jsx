@@ -11,19 +11,19 @@ import Right_Leaf from "../../images/our-product-img/leaf_right.png";
 function Tales_of_tea() {
   const AllImages = [
     {
-      src: image1,
-      message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
-      name: "Gold Chai",
-    },
-    {
       src: image2,
       message:
         "Exquisite teas, .Exquisite teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Elaichi Chai",
     },
     {
-      src: image3,
+      src: image1,
+      message:
+        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+      name: "Gold Chai",
+    },
+    {
+      src: image5,
       message:
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Masala Chai",
@@ -35,7 +35,7 @@ function Tales_of_tea() {
       name: "Premium Chai",
     },
     {
-      src: image5,
+      src: image3,
       message:
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Super Chai",
@@ -57,7 +57,7 @@ function Tales_of_tea() {
       name: "Elaichi Chai",
     },
     {
-      src: image3,
+      src: image5,
       message:
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Masala Chai",
@@ -71,7 +71,7 @@ function Tales_of_tea() {
       name: "Premium Chai",
     },
     {
-      src: image5,
+      src: image3,
       message:
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Super Chai",

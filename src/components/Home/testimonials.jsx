@@ -24,19 +24,19 @@ export default function Testimonial() {
       src: image1,
       message:
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
-      name: "User 1",
+      name: "Vaibhav",
     },
     {
       src: image1,
       message:
         "Spice up your life with Saburi. Exceptional flavors and quality. My dishes have never tasted this better!",
-      name: "User 2",
+      name: "Abhishek",
     },
     {
       src: image1,
       message:
         "Soya Chunks by Saburi: My secret to protein-packed, delicious meals. The best addition to my kitchen pantry!",
-      name: "User 3",
+      name: "Rahul",
     },
   ];
 

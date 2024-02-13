@@ -5,6 +5,8 @@ import image7 from "../../images/our-product-img/our-product-7.png";
 // import image8 from "../../images/our-product-img/our-product-8.png";
 import image9 from "../../images/our-product-img/our-product-9.png";
 import image10 from "../../images/our-product-img/our-product-10.png";
+import ajwain from "../../images/our-product-img/our-product-6.png"
+import Elichi from "../../images/our-product-img/our-product-8.png"
 import left_clove from "../../images/our-product-img/clove_left.png";
 import Right_clove from "../../images/our-product-img/clove_right.png";
 import left_clove_2 from "../../images/our-product-img/clove2_left.png";
@@ -13,22 +15,16 @@ import Right_clove_2 from "../../images/our-product-img/clove2_right.png";
 function SpiceSensations() {
   const AllImages = [
     {
-      src: image9,
-      message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
-      name: "Jeera",
-    },
-    {
-      src: image9,
-      message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
-      name: "Jeera",
-    },
-    {
-      src: image7,
+      src: Elichi,
       message:
         "Exquisite teas, .Exquisite teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Elaichi ",
+    },
+    {
+      src: image9,
+      message:
+        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+      name: "Jeera",
     },
     {
       src: image10,
@@ -42,8 +38,9 @@ function SpiceSensations() {
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Clove",
     },
+   
     {
-      src: image7,
+      src: ajwain,
       message:
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Ajwain",
@@ -59,7 +56,7 @@ function SpiceSensations() {
   ];
   const images2 = [
     {
-      src: image7,
+      src: Elichi,
       message:
         "Exquisite teas, .Exquisite teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Elaichi ",
@@ -79,7 +76,7 @@ function SpiceSensations() {
       name: "Clove",
     },
     {
-      src: image7,
+      src: ajwain,
       message:
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Ajwain",
