@@ -30,7 +30,7 @@ function PhotoGallery() {
     evlelvenImg,
     twowalvImg,
     thirtinImg,
-  ];
+  ]; 
   return (
     <div>
       <div className="main_about_saburi_bg_image">
@@ -77,16 +77,16 @@ function PhotoGallery() {
                   src={secondImg}
                   alt=""
                   srcset=""
-                  className=" img-fluid second_image"
+                  className=" img-fluid second_image Event_image_self"
                 />
               </div>
               {/* small */}
-              <div className="d-flex gap-5 pt-3">
+              <div className="d-flex gap-3 pt-2">
                 <div>
-                  <img src={fiftImg} alt="" srcset="" className="img-fluid" />
+                  <img src={fiftImg} alt="" srcset="" className="img-fluid Event_image_self" />
                 </div>
                 <div>
-                  <img src={FirstImg} alt="" srcset="" className="img-fluid" />
+                  <img src={FirstImg} alt="" srcset="" className="img-fluid Event_image_self" />
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ function PhotoGallery() {
               {/* top */}
               <div>
                 <img
-                  className="img-fluid top_photo_gallery_section_right_image"
+                  className="img-fluid top_photo_gallery_section_right_image Event_image_self"
                   src={fourtImg}
                   alt=""
                   srcset=""
@@ -104,7 +104,7 @@ function PhotoGallery() {
               {/* bottom */}
               <div>
                 <img
-                  className="img-fluid top_photo_gallery_section_right_image"
+                  className="img-fluid top_photo_gallery_section_right_image Event_image_self"
                   src={thirdImg}
                   alt=""
                   srcset=""
@@ -117,31 +117,31 @@ function PhotoGallery() {
             {/* left side */}
             <div className="d-flex flex-column gap-4">
               <div>
-                <img className="img-fluid" src={sixImg} alt="" />
+                <img className="img-fluid Event_image_self" src={sixImg} alt="" />
               </div>
               <div>
-                <img className="img-fluid" src={eightImg} alt="" />
+                <img className="img-fluid Event_image_self" src={eightImg} alt="" />
               </div>
               <div>
-                <img className="img-fluid" src={tanImg} alt="" />
+                <img className="img-fluid Event_image_self" src={tanImg} alt="" />
               </div>
               <div>
-                <img className="img-fluid" src={thirtinImg} alt="" />
+                <img className="img-fluid Event_image_self" src={thirtinImg} alt="" />
               </div>
             </div>
             {/* right */}
             <div className="d-flex flex-column gap-4">
               <div>
-                <img className="img-fluid" src={sevenImg} alt="" />
+                <img className="img-fluid Event_image_self" src={sevenImg} alt="" />
               </div>
               <div>
-                <img className="img-fluid" src={twowalvImg} alt="" />
+                <img className="img-fluid Event_image_self" src={twowalvImg} alt="" />
               </div>
               <div>
-                <img className="img-fluid" src={evlelvenImg} alt="" />
+                <img className="img-fluid Event_image_self" src={evlelvenImg} alt="" />
               </div>
               <div>
-                <img className="img-fluid" src={nineImg} alt="" />
+                <img className="img-fluid Event_image_self" src={nineImg} alt="" />
               </div>
             </div>
           </div>

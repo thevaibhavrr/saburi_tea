@@ -29,7 +29,7 @@ function SmallNavbar() {
             <div className="">
               <img src={mainIcon} alt="" srcset="" className="header-logo" />
             </div>
-            <div className="" onClick={toggleVerticalNavbar}>
+            <div className="text-white" onClick={toggleVerticalNavbar}>
               {/* <i className="bi bi-grip-horizontal" /> */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

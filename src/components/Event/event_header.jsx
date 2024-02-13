@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/event/event-header.css";
-import Event_Image from "../../images/Photo_Gallery/Events.png";
+
 import SmallNavbar from "../smallnavbar";
 import BigNavbar from "../bigNavbar";
 
@@ -15,12 +15,14 @@ function Eventheader() {
            <SmallNavbar/>
             {/* contact us image */}
             <div className="Event_logo_div">
-              <img
-                src={Event_Image}
-                alt="contact-us"
-                className="Event_header_icon"
-              />
-            </div>
+            {/* <img
+              src={Event_Image}
+              alt="contact-us"
+              className="Event_header_icon"
+            /> */}
+            <h6  className="typing-animation">Events</h6>
+            
+          </div>
           </div>
         </div>
 
@@ -35,6 +37,7 @@ function Eventheader() {
               className="Event_header_icon"
             /> */}
             <h1  className="typing-animation">Events</h1>
+            
           </div>
         </div>
       </div>

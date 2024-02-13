@@ -37,6 +37,7 @@
       filter  :drop-shadow(2px 4px 6px black);
 }
 
+
 @keyframes typing {
   from {
     width: 0;
@@ -47,6 +48,17 @@
 }
 
 
+
+@media (max-width: 767px) {
+  .Event_logo_div{
+    /* width: 20%;/ */
+    /* background: #000; */
+    /* width: 400px; */
+  }
+.typing-animation {
+  font-size: 100px;
+}
+}
 @media (max-width: 768px) {
   .Event_header_icon {
     width: 70%;
