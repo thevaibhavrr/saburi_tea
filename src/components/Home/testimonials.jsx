@@ -19,21 +19,28 @@ export default function Testimonial() {
   // };
 
   // const images = [image1, image1, image1, image1, image1, image1];
+  const user3 = ""
   const images = [
     {
       src: image1,
+      user : "https://badmchampionship.nmims.edu/wp-content/uploads/2017/10/manish-desai.jpg",
+      // user:"https://health-equity-action.org/sites/default/files/styles/large/public/pictures/2023-01/Naresh-Punjabi-2000x2000.jpg?itok=oqH0VzPn",
+
       message:
         "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
       name: "Vaibhav",
     },
     {
       src: image1,
+      // user:"https://health-equity-action.org/sites/default/files/styles/large/public/pictures/2023-01/Naresh-Punjabi-2000x2000.jpg?itok=oqH0VzPn",
+      user:"https://media.licdn.com/dms/image/D4D03AQHUCyN6xKF26w/profile-displayphoto-shrink_800_800/0/1684568848914?e=2147483647&v=beta&t=OreURQwOJ3k2GYgb_9AHro6ofuzNgrRppEMnQyShelc",
       message:
         "Spice up your life with Saburi. Exceptional flavors and quality. My dishes have never tasted this better!",
       name: "Abhishek",
     },
     {
       src: image1,
+      user:"https://media.licdn.com/dms/image/C4D03AQGvd8ezGDv7Qw/profile-displayphoto-shrink_800_800/0/1652960129689?e=2147483647&v=beta&t=VGt8-bm4RJLHQGTO_BYdRM_ipGpn9expy2zJCadIUXE",
       message:
         "Soya Chunks by Saburi: My secret to protein-packed, delicious meals. The best addition to my kitchen pantry!",
       name: "Rahul",
@@ -88,7 +95,7 @@ export default function Testimonial() {
                   />
                   <div className="testiminal_user_image_div">
                     <img
-                      src={UserImage}
+                      src={testimonial.user}
                       alt="user_image"
                       className="testiminal_user_image"
                     />

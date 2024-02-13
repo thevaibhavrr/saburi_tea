@@ -15,6 +15,7 @@
   filter: grayscale(100%);
   padding: 10px;
   display: none;
+  border-radius: 200px;
 }
 
 .user_info-message {
@@ -64,6 +65,7 @@
   .testiminal_user_image {
     padding: 10px;
     width: 140px;
+    height: 100%;
   }
 }
 @media (min-width: 1440px) {
