@@ -29,11 +29,12 @@
 }
 .typing-animation {
   overflow: hidden; 
-  animation: typing 4s steps(12, end); 
+  animation: typing 3s steps(15, end); 
   white-space: nowrap; 
   border-right: 3px solid #ffffff; 
   font-size: 220px;
   color: white;
+      filter  :drop-shadow(2px 4px 6px black);
 }
 
 @keyframes typing {
