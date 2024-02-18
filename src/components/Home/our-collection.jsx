@@ -125,9 +125,9 @@ function Ourcollection() {
           </div>
 
           {/* right side div */}
-          <sapn className="right-side-our-product-div"></sapn>
+          {/* <sapn className="right-side-our-product-div"></sapn> */}
           {/* right side div */}
-          <sapn className="left-side-our-product-div"></sapn>
+          {/* <sapn className="left-side-our-product-div"></sapn> */}
         </div>
       </div>
     </>

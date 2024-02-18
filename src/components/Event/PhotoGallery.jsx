@@ -60,7 +60,7 @@ function PhotoGallery() {
         <div className="photo_gallery_card_for_small_screen">
           {AllImages.map((data, index) => (
             <div key={index} className=" event_image_parent_div pb-2">
-              <img src={data} alt="Event_image" className="event_images" data-aos="flip-right"
+              <img src={data} alt="Event_image" className="event_images" data-aos="zoom-in"
                data-aos-offset="200"
                data-aos-duration="900" />
             </div>
@@ -75,7 +75,7 @@ function PhotoGallery() {
             <div className="top_photo_gallery_section_left">
               {/* big */}
               <div
-                data-aos="flip-left"
+                data-aos="zoom-in"
                 data-aos-offset="200"
                 data-aos-duration="900"
               >
@@ -109,7 +109,7 @@ function PhotoGallery() {
             {/* right */}
             <div
               className="top_photo_gallery_section_right"
-              data-aos="flip-right"
+              data-aos="zoom-in"
               data-aos-offset="200"
               data-aos-duration="900"
             >
@@ -138,7 +138,7 @@ function PhotoGallery() {
             {/* left side */}
             <div className="d-flex flex-column gap-4">
               <div 
-              data-aos="flip-left"
+              data-aos="zoom-in"
               data-aos-offset="200"
               data-aos-duration="900"
               >
@@ -149,7 +149,7 @@ function PhotoGallery() {
                 />
               </div>
               <div
-              data-aos="flip-left"
+              data-aos="zoom-in"
               data-aos-offset="200"
               data-aos-duration="900"
               >
@@ -160,7 +160,7 @@ function PhotoGallery() {
                 />
               </div>
               <div
-              data-aos="flip-left"
+              data-aos="zoom-in"
               data-aos-offset="200"
               data-aos-duration="900"
               >
@@ -171,7 +171,7 @@ function PhotoGallery() {
                 />
               </div>
               <div
-              data-aos="flip-left"
+              data-aos="zoom-in"
               data-aos-offset="200"
               data-aos-duration="900"
               >
@@ -185,7 +185,7 @@ function PhotoGallery() {
             {/* right */}
             <div className="d-flex flex-column gap-4">
               <div
-               data-aos="flip-right"
+               data-aos="zoom-in"
                data-aos-offset="200"
                data-aos-duration="900"
               >
@@ -196,7 +196,7 @@ function PhotoGallery() {
                 />
               </div>
               <div
-               data-aos="flip-right"
+               data-aos="zoom-in"
                data-aos-offset="200"
                data-aos-duration="900"
               >
@@ -207,7 +207,7 @@ function PhotoGallery() {
                 />
               </div>
               <div
-               data-aos="flip-right"
+               data-aos="zoom-in"
                data-aos-offset="200"
                data-aos-duration="900"
               >
@@ -218,7 +218,7 @@ function PhotoGallery() {
                 />
               </div>
               <div
-               data-aos="flip-right"
+               data-aos="zoom-in"
                data-aos-offset="200"
                data-aos-duration="900"
               >
