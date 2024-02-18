@@ -12,7 +12,7 @@
 .back-event-image::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -26,7 +26,8 @@
 .Event_logo_div {
   z-index: 1;
   padding-left: 200px;
-  margin-top: 50px;
+  padding-top: 100px;
+  /* margin-top: 50px; */
 }
 .typing-animation {
   overflow: hidden; 
