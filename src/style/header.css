@@ -57,6 +57,9 @@
   color: white;
   padding: 5px;
   font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 .big_screen_navbar_ul{
   display: flex;
