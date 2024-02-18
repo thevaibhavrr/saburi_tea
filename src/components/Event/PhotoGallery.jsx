@@ -60,7 +60,9 @@ function PhotoGallery() {
         <div className="photo_gallery_card_for_small_screen">
           {AllImages.map((data, index) => (
             <div key={index} className=" event_image_parent_div pb-2">
-              <img src={data} alt="Event_image" className="event_images" />
+              <img src={data} alt="Event_image" className="event_images" data-aos="flip-right"
+               data-aos-offset="200"
+               data-aos-duration="900" />
             </div>
           ))}
         </div>
