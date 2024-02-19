@@ -48,7 +48,7 @@
   border-bottom: 1px solid #46464636;
 }
 /* navbar for big screen */
-.main_navbar_for_big_screen{
+/* .main_navbar_for_big_screen{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,7 +60,30 @@
   position: fixed;
   width: 100%;
   z-index: 1;
+} */
+.main_navbar_for_big_screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  color: white;
+  padding: 5px;
+  font-family: sans-serif;
+  width: 100%;
+  z-index: 2;
 }
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+}
+
 .big_screen_navbar_ul{
   display: flex;
   justify-content: space-around;
