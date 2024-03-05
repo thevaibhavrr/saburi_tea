@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
+import "swiper/css/navigation"; 
 import image1 from "../../images/Testimonial.png";
 import TextBootomIcon from "../../images/Shape.png";
 

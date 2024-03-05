@@ -15,6 +15,22 @@ import tanImg from "../../images/Photo_Gallery/10.png";
 import evlelvenImg from "../../images/Photo_Gallery/11.png";
 import twowalvImg from "../../images/Photo_Gallery/12.png";
 import thirtinImg from "../../images/Photo_Gallery/13.png";
+import fourtingImg from "../../images/Photo_Gallery/14.JPG";
+import fiftenImg from "../../images/Photo_Gallery/15.JPG";
+import sixtenImg from "../../images/Photo_Gallery/16.JPG";
+import seventenImg from "../../images/Photo_Gallery/17.JPG";
+import eightenImg from "../../images/Photo_Gallery/18.JPG";
+import ninetenImg from "../../images/Photo_Gallery/19.JPG";
+import twentImg from "../../images/Photo_Gallery/20.JPG";
+import twentoneImg from "../../images/Photo_Gallery/21.JPG";
+import twentwoImg from "../../images/Photo_Gallery/22.JPG";
+import twentthreeImg from "../../images/Photo_Gallery/23.JPG";
+import twentfourImg from "../../images/Photo_Gallery/24.JPG";
+import twentfiveImg from "../../images/Photo_Gallery/25.JPG";
+import twentysixImg from "../../images/Photo_Gallery/26.JPG";
+import twentysevenImg from "../../images/Photo_Gallery/27.JPG";
+import twentyeightImg from "../../images/Photo_Gallery/28.JPG";
+
 function PhotoGallery() {
   const AllImages = [
     FirstImg,
@@ -30,6 +46,21 @@ function PhotoGallery() {
     evlelvenImg,
     twowalvImg,
     thirtinImg,
+    fourtingImg,
+    fiftenImg,
+    sixtenImg,
+    seventenImg,
+    eightenImg,
+    ninetenImg,
+    twentImg,
+    twentoneImg,
+    twentwoImg,
+    twentthreeImg,
+    twentfourImg,
+    twentfiveImg,
+    twentysixImg,
+    twentysevenImg,
+    twentyeightImg,
   ];
   return (
     <div>
@@ -60,9 +91,14 @@ function PhotoGallery() {
         <div className="photo_gallery_card_for_small_screen">
           {AllImages.map((data, index) => (
             <div key={index} className=" event_image_parent_div pb-2">
-              <img src={data} alt="Event_image" className="event_images" data-aos="zoom-in"
-               data-aos-offset="200"
-               data-aos-duration="900" />
+              <img
+                src={data}
+                alt="Event_image"
+                className="event_images"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              />
             </div>
           ))}
         </div>
@@ -137,10 +173,10 @@ function PhotoGallery() {
           <div className="d-flex gap-5 pt-4">
             {/* left side */}
             <div className="d-flex flex-column gap-4">
-              <div 
-              data-aos="zoom-in"
-              data-aos-offset="200"
-              data-aos-duration="900"
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
               >
                 <img
                   className="img-fluid Event_image_self"
@@ -149,9 +185,9 @@ function PhotoGallery() {
                 />
               </div>
               <div
-              data-aos="zoom-in"
-              data-aos-offset="200"
-              data-aos-duration="900"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
               >
                 <img
                   className="img-fluid Event_image_self"
@@ -160,9 +196,9 @@ function PhotoGallery() {
                 />
               </div>
               <div
-              data-aos="zoom-in"
-              data-aos-offset="200"
-              data-aos-duration="900"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
               >
                 <img
                   className="img-fluid Event_image_self"
@@ -171,9 +207,9 @@ function PhotoGallery() {
                 />
               </div>
               <div
-              data-aos="zoom-in"
-              data-aos-offset="200"
-              data-aos-duration="900"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
               >
                 <img
                   className="img-fluid Event_image_self"
@@ -185,9 +221,9 @@ function PhotoGallery() {
             {/* right */}
             <div className="d-flex flex-column gap-4">
               <div
-               data-aos="zoom-in"
-               data-aos-offset="200"
-               data-aos-duration="900"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
               >
                 <img
                   className="img-fluid Event_image_self"
@@ -196,9 +232,9 @@ function PhotoGallery() {
                 />
               </div>
               <div
-               data-aos="zoom-in"
-               data-aos-offset="200"
-               data-aos-duration="900"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
               >
                 <img
                   className="img-fluid Event_image_self"
@@ -207,9 +243,9 @@ function PhotoGallery() {
                 />
               </div>
               <div
-               data-aos="zoom-in"
-               data-aos-offset="200"
-               data-aos-duration="900"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
               >
                 <img
                   className="img-fluid Event_image_self"
@@ -218,9 +254,9 @@ function PhotoGallery() {
                 />
               </div>
               <div
-               data-aos="zoom-in"
-               data-aos-offset="200"
-               data-aos-duration="900"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
               >
                 <img
                   className="img-fluid Event_image_self"
@@ -231,6 +267,171 @@ function PhotoGallery() {
             </div>
           </div>
         </div>
+{/* neww */}
+        <div className="photo_gallery_card_for_big_screen">
+  {/* top */}
+  <div className="top_photo_gallery_section">
+    {/* left */}
+    <div className="top_photo_gallery_section_left">
+      {/* big */}
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          src={fourtingImg}
+          alt=""
+          srcset=""
+          className="img-fluid second_image Event_image_self"
+        />
+      </div>
+      {/* small */}
+      <div className="d-flex gap-3 pt-2">
+        <div>
+          <img
+            src={fiftenImg}
+            alt=""
+            srcset=""
+            className="img-fluid Event_image_self"
+          />
+        </div>
+        <div>
+          <img
+            src={sixtenImg}
+            alt=""
+            srcset=""
+            className="img-fluid Event_image_self"
+          />
+        </div>
+      </div>
+    </div>
+    {/* right */}
+    <div
+      className="top_photo_gallery_section_right"
+      data-aos="zoom-in"
+      data-aos-offset="200"
+      data-aos-duration="900"
+    >
+      {/* top */}
+      <div>
+        <img
+          className="img-fluid my-1 top_photo_gallery_section_right_image Event_image_self"
+          src={seventenImg}
+          alt=""
+          srcset=""
+        />
+      </div>
+      {/* bottom */}
+      <div>
+        <img
+          className="img-fluid top_photo_gallery_section_right_image Event_image_self"
+          src={twentyeightImg}
+          alt=""
+          srcset=""
+        />
+      </div>
+    </div>
+  </div>
+  {/* center */}
+  <div className="d-flex gap-5 pt-4">
+    {/* left side */}
+    <div className="d-flex flex-column gap-4">
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          className="img-fluid Event_image_self"
+          src={sixtenImg}
+          alt=""
+        />
+      </div>
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          className="img-fluid Event_image_self"
+          src={eightenImg}
+          alt=""
+        />
+      </div>
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          className="img-fluid Event_image_self"
+          src={twentImg}
+          alt=""
+        />
+      </div>
+      {/* <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          className="img-fluid Event_image_self"
+          src={twentoneImg}
+          alt=""
+        />
+      </div> */}
+    </div>
+    {/* right */}
+    <div className="d-flex flex-column gap-4">
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          className="img-fluid Event_image_self"
+          src={twentwoImg}
+          alt=""
+        />
+      </div>
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          className="img-fluid Event_image_self"
+          src={twentthreeImg}
+          alt=""
+        />
+      </div>
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          className="img-fluid Event_image_self"
+          src={twentfourImg}
+          alt=""
+        />
+      </div>
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-duration="900"
+      >
+        <img
+          className="img-fluid Event_image_self"
+          src={twentfiveImg}
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
 
         {/* side images Leafs */}
         <div className=" d-flex justify-content-between">

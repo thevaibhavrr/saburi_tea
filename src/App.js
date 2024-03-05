@@ -11,7 +11,7 @@ import About from "./page/About";
 import Event from "./page/Event";
 
 function App() {
-  useEffect(() => {
+  useEffect(() => { 
     Aos.init();
   }, []);
   return (
