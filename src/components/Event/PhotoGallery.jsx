@@ -46,7 +46,8 @@ function PhotoGallery() {
     evlelvenImg,
     twowalvImg,
     thirtinImg,
-    fourtingImg,
+    fourtingImg
+    ,
     fiftenImg,
     sixtenImg,
     seventenImg,

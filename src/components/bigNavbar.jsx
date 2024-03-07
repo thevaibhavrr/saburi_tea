@@ -1,12 +1,37 @@
-// import React from "react";
+
+// import React, { useState, useEffect } from "react";
 // import "../style/header.css";
 // import mainIcon from "../images/S-logo.png";
 // import { NavLink } from "react-router-dom";
+// import PDF from "../images/E-catelog/SABURI CHAI CATALOUGE 2024.pdf"
 
 // function BigNavbar() {
+//   const [isFixed, setIsFixed] = useState(false);
+
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       if (window.scrollY > 800) {
+//         setIsFixed(true);
+//       } else {
+//         setIsFixed(false);
+//       }
+//     };
+
+//     window.addEventListener("scroll", handleScroll);
+
+//     return () => {
+//       window.removeEventListener("scroll", handleScroll);
+//     };
+//   }, []);
+
 //   return (
 //     <div>
-//       <div className="main_navbar_for_big_screen ">
+//       <div
+//          className={`main_navbar_for_big_screen ${isFixed ? 'fixed' : 'absolute'}`}
+//          data-aos={isFixed ? "fade-down" : "zoom-in"}
+//          data-aos-offset="200"
+//          data-aos-duration="900"
+//       >
 //         {/* left */}
 //         <div className="navbar_for_big_screen_left_side_div">
 //           <NavLink className=" text-decoration-none text-white" to={"/"}>
@@ -61,6 +86,7 @@ import React, { useState, useEffect } from "react";
 import "../style/header.css";
 import mainIcon from "../images/S-logo.png";
 import { NavLink } from "react-router-dom";
+import PDF from "../images/E-catelog/SABURI CHAI CATALOUGE 2024.pdf";
 
 function BigNavbar() {
   const [isFixed, setIsFixed] = useState(false);
@@ -81,13 +107,19 @@ function BigNavbar() {
     };
   }, []);
 
+  const openPdf = () => {
+    window.open(PDF, "_blank");
+  };
+
   return (
     <div>
       <div
-         className={`main_navbar_for_big_screen ${isFixed ? 'fixed' : 'absolute'}`}
-         data-aos={isFixed ? "fade-down" : "zoom-in"}
-         data-aos-offset="200"
-         data-aos-duration="900"
+        className={`main_navbar_for_big_screen ${
+          isFixed ? "fixed" : "absolute"
+        }`}
+        data-aos={isFixed ? "fade-down" : "zoom-in"}
+        data-aos-offset="200"
+        data-aos-duration="900"
       >
         {/* left */}
         <div className="navbar_for_big_screen_left_side_div">
@@ -95,7 +127,7 @@ function BigNavbar() {
             <img
               src={mainIcon}
               alt=""
-              srcset=""
+              srcSet=""
               className="Header_logo_for_big_screen"
             />
           </NavLink>
@@ -119,7 +151,8 @@ function BigNavbar() {
               <li>PRODUCT</li>
             </NavLink>
 
-            <li>E-CATALOG</li>
+            <li onClick={openPdf} style={{cursor:"pointer"}} >E-CATALOG</li>
+            
             <NavLink className=" text-decoration-none text-white" to={"/event"}>
               <li>Event</li>
             </NavLink>
