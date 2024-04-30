@@ -30,6 +30,17 @@ import twentfiveImg from "../../images/Photo_Gallery/25.JPG";
 import twentysixImg from "../../images/Photo_Gallery/26.JPG";
 import twentysevenImg from "../../images/Photo_Gallery/27.JPG";
 import twentyeightImg from "../../images/Photo_Gallery/28.JPG";
+import twentyNineImg from "../../images/Photo_Gallery/29.jpg";
+import thirtyImg from "../../images/Photo_Gallery/30.jpg";
+import thirtyoneImg from "../../images/Photo_Gallery/31.jpg";
+import thirtytwoImg from "../../images/Photo_Gallery/32.jpg";
+import thirtythreeImg from "../../images/Photo_Gallery/33.jpg";
+import thirtyfourImg from "../../images/Photo_Gallery/34.jpg";
+import thirtyfiveImg from "../../images/Photo_Gallery/35.jpg";
+import thirtysixImg from "../../images/Photo_Gallery/36.jpg";
+import thirtysevenImg from "../../images/Photo_Gallery/37.jpg";
+import thirtyeightImg from "../../images/Photo_Gallery/38.jpg";
+
 
 function PhotoGallery() {
   const AllImages = [
@@ -61,7 +72,18 @@ function PhotoGallery() {
     twentfiveImg,
     twentysixImg,
     twentysevenImg,
-    twentyeightImg,
+    twentyeightImg
+    ,
+    twentyNineImg,
+    thirtyImg,
+    thirtyoneImg,
+    thirtytwoImg,
+    thirtythreeImg,
+    thirtyfourImg,
+    thirtyfiveImg,
+    thirtysixImg,
+    thirtysevenImg,
+    thirtyeightImg
   ];
   return (
     <div>
@@ -268,170 +290,302 @@ function PhotoGallery() {
             </div>
           </div>
         </div>
-{/* neww */}
+        {/* second */}
         <div className="photo_gallery_card_for_big_screen">
-  {/* top */}
-  <div className="top_photo_gallery_section">
-    {/* left */}
-    <div className="top_photo_gallery_section_left">
-      {/* big */}
-      <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          src={fourtingImg}
-          alt=""
-          srcset=""
-          className="img-fluid second_image Event_image_self"
-        />
-      </div>
-      {/* small */}
-      <div className="d-flex gap-3 pt-2">
-        <div>
-          <img
-            src={fiftenImg}
-            alt=""
-            srcset=""
-            className="img-fluid Event_image_self"
-          />
+          {/* top */}
+          <div className="top_photo_gallery_section">
+            {/* left */}
+            <div className="top_photo_gallery_section_left">
+              {/* big */}
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  src={fourtingImg}
+                  alt=""
+                  srcset=""
+                  className="img-fluid second_image Event_image_self"
+                />
+              </div>
+              {/* small */}
+              <div className="d-flex gap-3 pt-2">
+                <div>
+                  <img
+                    src={fiftenImg}
+                    alt=""
+                    srcset=""
+                    className="img-fluid Event_image_self"
+                  />
+                </div>
+                <div>
+                  <img
+                    src={sixtenImg}
+                    alt=""
+                    srcset=""
+                    className="img-fluid Event_image_self"
+                  />
+                </div>
+              </div>
+            </div>
+            {/* right */}
+            <div
+              className="top_photo_gallery_section_right"
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-duration="900"
+            >
+              {/* top */}
+              <div>
+                <img
+                  className="img-fluid my-1 top_photo_gallery_section_right_image Event_image_self"
+                  src={seventenImg}
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              {/* bottom */}
+              <div>
+                <img
+                  className="img-fluid top_photo_gallery_section_right_image Event_image_self"
+                  src={twentyeightImg}
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+          {/* center */}
+          <div className="d-flex gap-5 pt-4">
+            {/* left side */}
+            <div className="d-flex flex-column gap-4">
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={sixtenImg}
+                  alt=""
+                />
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={eightenImg}
+                  alt=""
+                />
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={twentImg}
+                  alt=""
+                />
+              </div>
+            </div>
+            {/* right */}
+            <div className="d-flex flex-column gap-4">
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={twentwoImg}
+                  alt=""
+                />
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={twentthreeImg}
+                  alt=""
+                />
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={twentfourImg}
+                  alt=""
+                />
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={twentfiveImg}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <img
-            src={sixtenImg}
-            alt=""
-            srcset=""
-            className="img-fluid Event_image_self"
-          />
+
+        {/* third */}
+        
+        <div className=" text-center  ">
+          <div>
+            <div className="main_About_saburi_section">
+              <h2 className="main_tales_of_tea_heading">Aahar Exhibition Delhi 2024</h2>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    {/* right */}
-    <div
-      className="top_photo_gallery_section_right"
-      data-aos="zoom-in"
-      data-aos-offset="200"
-      data-aos-duration="900"
-    >
-      {/* top */}
-      <div>
-        <img
-          className="img-fluid my-1 top_photo_gallery_section_right_image Event_image_self"
-          src={seventenImg}
-          alt=""
-          srcset=""
-        />
-      </div>
-      {/* bottom */}
-      <div>
-        <img
-          className="img-fluid top_photo_gallery_section_right_image Event_image_self"
-          src={twentyeightImg}
-          alt=""
-          srcset=""
-        />
-      </div>
-    </div>
-  </div>
-  {/* center */}
-  <div className="d-flex gap-5 pt-4">
-    {/* left side */}
-    <div className="d-flex flex-column gap-4">
-      <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          className="img-fluid Event_image_self"
-          src={sixtenImg}
-          alt=""
-        />
-      </div>
-      <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          className="img-fluid Event_image_self"
-          src={eightenImg}
-          alt=""
-        />
-      </div>
-      <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          className="img-fluid Event_image_self"
-          src={twentImg}
-          alt=""
-        />
-      </div>
-      {/* <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          className="img-fluid Event_image_self"
-          src={twentoneImg}
-          alt=""
-        />
-      </div> */}
-    </div>
-    {/* right */}
-    <div className="d-flex flex-column gap-4">
-      <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          className="img-fluid Event_image_self"
-          src={twentwoImg}
-          alt=""
-        />
-      </div>
-      <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          className="img-fluid Event_image_self"
-          src={twentthreeImg}
-          alt=""
-        />
-      </div>
-      <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          className="img-fluid Event_image_self"
-          src={twentfourImg}
-          alt=""
-        />
-      </div>
-      <div
-        data-aos="zoom-in"
-        data-aos-offset="200"
-        data-aos-duration="900"
-      >
-        <img
-          className="img-fluid Event_image_self"
-          src={twentfiveImg}
-          alt=""
-        />
-      </div>
-    </div>
-  </div>
-</div>
+
+        <div className="photo_gallery_card_for_big_screen">
+          {/* top */}
+          <div className="top_photo_gallery_section">
+            {/* left */}
+            <div className="top_photo_gallery_section_left">
+              {/* big */}
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  src={twentyNineImg}
+                  alt=""
+                  srcset=""
+                  className="img-fluid second_image Event_image_self"
+                />
+              </div>
+              {/* small */}
+              <div className="d-flex gap-3 pt-2">
+                <div>
+                  <img
+                    src={thirtyImg}
+                    alt=""
+                    srcset=""
+                    className="img-fluid Event_image_self"
+                  />
+                </div>
+                <div>
+                  <img
+                    src={ thirtyoneImg   }
+                    alt=""
+                    srcset=""
+                    className="img-fluid Event_image_self"
+                  />
+                </div>
+              </div>
+            </div>
+            {/* right */}
+            <div
+              className="top_photo_gallery_section_right"
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-duration="900"
+            >
+              {/* top */}
+              <div>
+                <img
+                  className="img-fluid my-1 top_photo_gallery_section_right_image Event_image_self"
+                  src={thirtysevenImg  }
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              {/* bottom */}
+              <div>
+                <img
+                  className="img-fluid top_photo_gallery_section_right_image Event_image_self"
+                  src={thirtythreeImg}
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+          {/* center */}
+          <div className="d-flex gap-5 pt-4">
+            {/* left side */}
+            <div className="d-flex flex-column gap-4">
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={thirtyfourImg}
+                  alt=""
+                />
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={thirtyfiveImg}
+                  alt=""
+                />
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={thirtysixImg}
+                  alt=""
+                />
+              </div>
+            </div>
+            {/* right */}
+            <div className="d-flex flex-column gap-4">
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={thirtytwoImg}
+                  alt=""
+                />
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              >
+                <img
+                  className="img-fluid Event_image_self"
+                  src={thirtyeightImg}
+                  alt=""
+                />
+              </div>
+             
+             
+            </div>
+          </div>
+        </div>
 
 
         {/* side images Leafs */}
