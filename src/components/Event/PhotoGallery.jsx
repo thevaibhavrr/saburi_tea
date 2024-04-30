@@ -74,6 +74,8 @@ function PhotoGallery() {
     twentysevenImg,
     twentyeightImg
     ,
+  ];
+  const delhiImages = [
     twentyNineImg,
     thirtyImg,
     thirtyoneImg,
@@ -84,7 +86,8 @@ function PhotoGallery() {
     thirtysixImg,
     thirtysevenImg,
     thirtyeightImg
-  ];
+    
+  ]
   return (
     <div>
       <div className="main_about_saburi_bg_image">
@@ -113,6 +116,28 @@ function PhotoGallery() {
         {/* 1  for small screen*/}
         <div className="photo_gallery_card_for_small_screen">
           {AllImages.map((data, index) => (
+            <div key={index} className=" event_image_parent_div pb-2">
+              <img
+                src={data}
+                alt="Event_image"
+                className="event_images"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-duration="900"
+              />
+            </div>
+          ))}
+        </div>
+        {/* 2  for small screen*/}
+        <div className="photo_gallery_card_for_small_screen">
+        <div className=" text-center mt-5  ">
+          <div>
+            <div className="main_About_saburi_section">
+              <h2 className="main_tales_of_tea_heading">Aahar Exhibition Delhi 2024</h2>
+            </div>
+          </div>
+        </div>
+          {delhiImages.map((data, index) => (
             <div key={index} className=" event_image_parent_div pb-2">
               <img
                 src={data}
@@ -445,6 +470,8 @@ function PhotoGallery() {
         </div>
 
         {/* third */}
+
+        <div className="photo_gallery_card_for_big_screen">
         
         <div className=" text-center  ">
           <div>
@@ -453,8 +480,6 @@ function PhotoGallery() {
             </div>
           </div>
         </div>
-
-        <div className="photo_gallery_card_for_big_screen">
           {/* top */}
           <div className="top_photo_gallery_section">
             {/* left */}
