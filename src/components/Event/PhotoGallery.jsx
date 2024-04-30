@@ -3,7 +3,7 @@ import "../../style/event/PhotoGallery.css";
 import left_Leaf from "../../images/our-product-img/leaf_left.png";
 import Right_Leaf from "../../images/our-product-img/leaf_right.png";
 import FirstImg from "../../images/Photo_Gallery/1.png";
-import secondImg from "../../images/Photo_Gallery/2.png";
+// import secondImg from "../../images/Photo_Gallery/2.png";
 import thirdImg from "../../images/Photo_Gallery/3.png";
 import fourtImg from "../../images/Photo_Gallery/4.png";
 import fiftImg from "../../images/Photo_Gallery/5.png";
@@ -40,12 +40,13 @@ import thirtyfiveImg from "../../images/Photo_Gallery/35.jpg";
 import thirtysixImg from "../../images/Photo_Gallery/36.jpg";
 import thirtysevenImg from "../../images/Photo_Gallery/37.jpg";
 import thirtyeightImg from "../../images/Photo_Gallery/38.jpg";
+import thirtynineImg from "../../images/Photo_Gallery/39.jpg";
 
 
 function PhotoGallery() {
   const AllImages = [
     FirstImg,
-    secondImg,
+    thirtynineImg,
     thirdImg,
     fourtImg,
     fiftImg,
@@ -162,12 +163,14 @@ function PhotoGallery() {
                 data-aos="zoom-in"
                 data-aos-offset="200"
                 data-aos-duration="900"
+                className="text-center"
               >
                 <img
-                  src={secondImg}
+                  src={thirtynineImg}
                   alt=""
                   srcset=""
-                  className=" img-fluid second_image Event_image_self"
+                  className=" img-fluid second_image Event_image_self "
+                  style={{ width: "60%" }}
                 />
               </div>
               {/* small */}
