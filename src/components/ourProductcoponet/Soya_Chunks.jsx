@@ -53,7 +53,7 @@ function SoyaChunk() {
             <div className="main_tales_text_section">
               {/* tales of tea text */}
               <div className="main_tales_of_tea_section">
-                <h2 className="main_tales_of_tea_heading">Soya Chunks</h2>
+                <h2 className="main_tales_of_tea_heading">Mackroni</h2>
               </div>
 
               {/* tales of tea card section */}
