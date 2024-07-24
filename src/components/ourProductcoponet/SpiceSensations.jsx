@@ -1,11 +1,13 @@
 import React from "react";
 import "../../style/our-product/our-product/tales_of_tea.css";
 // import image6 from "../../images/our-product-img/our-product-6.png";
-import image7 from "../../images/our-product-img/our-product-7.png";
+// import image7 from "../../images/our-product-img/our-product-7.png";
+import image7 from "../../images/our-product-img/Saburi Clove Rs 10 - Front.png";
 // import image8 from "../../images/our-product-img/our-product-8.png";
 import image9 from "../../images/our-product-img/our-product-9.png";
 import image10 from "../../images/our-product-img/our-product-10.png";
-import ajwain from "../../images/our-product-img/our-product-6.png"
+import ajwain from "../../images/our-product-img/ajwain 10rs dummy front.png"
+// import ajwain from "../../images/our-product-img/our-product-6.png"
 import Elichi from "../../images/our-product-img/our-product-8.png"
 import left_clove from "../../images/our-product-img/clove_left.png";
 import Right_clove from "../../images/our-product-img/clove_right.png";
@@ -17,32 +19,32 @@ function SpiceSensations() {
     {
       src: Elichi,
       message:
-        "Exquisite teas, .Exquisite teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Elaichi, or cardamom, is a fragrant spice used in various dishes and teas, known for its aromatic flavor and digestive benefits.",
       name: "Elaichi ",
     },
     {
       src: image9,
       message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Jeera, or cumin, is a spice with a warm, earthy flavor used in many dishes. It's valued for its aromatic scent and digestive benefits.",
       name: "Jeera",
     },
     {
       src: image10,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Kali mirch, or black pepper, is a common spice with a pungent, spicy flavor. It enhances the taste of dishes and has digestive and antioxidant benefits.",
       name: "Kali Mirch",
     },
     {
       src: image7,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Clove is a warm, aromatic spice used in both sweet and savory dishes. Known for its intense flavor and medicinal properties, it's often used in cooking and traditional remedies.",
       name: "Clove",
     },
    
     {
       src: ajwain,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Ajwain, or carom seeds, is a spice with a strong, thyme-like flavor. Often used in Indian cuisine, it adds a distinctive taste to dishes and aids digestion.",
       name: "Ajwain",
     },
   ];
@@ -50,7 +52,7 @@ function SpiceSensations() {
     {
       src: image9,
       message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Jeera, or cumin, is a spice with a warm, earthy flavor used in many dishes. It's valued for its aromatic scent and digestive benefits.",
       name: "Jeera",
     },
   ];
@@ -58,13 +60,13 @@ function SpiceSensations() {
     {
       src: Elichi,
       message:
-        "Exquisite teas, .Exquisite teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Elaichi, or cardamom, is a fragrant spice used in various dishes and teas, known for its aromatic flavor and digestive benefits.",
       name: "Elaichi ",
     },
     {
       src: image10,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Kali mirch, or black pepper, is a common spice with a pungent, spicy flavor. It enhances the taste of dishes and has digestive and antioxidant benefits.",
       name: "Kali Mirch",
     },
   ];
@@ -72,13 +74,13 @@ function SpiceSensations() {
     {
       src: image7,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Clove is a warm, aromatic spice used in both sweet and savory dishes. Known for its intense flavor and medicinal properties, it's often used in cooking and traditional remedies.",
       name: "Clove",
     },
     {
       src: ajwain,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Ajwain, or carom seeds, is a spice with a strong, thyme-like flavor. Often used in Indian cuisine, it adds a distinctive taste to dishes and aids digestion.",
       name: "Ajwain",
     },
   ];

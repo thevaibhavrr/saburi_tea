@@ -1,10 +1,15 @@
 import React from "react";
 import "../../style/our-product/our-product/tales_of_tea.css";
-import image1 from "../../images/our-product-img/our-product-1.png";
-import image2 from "../../images/our-product-img/our-product-2.png";
+// import image1 from "../../images/our-product-img/our-product-1.png";
+import image1 from "../../images/our-product-img/SABURI GOLD TEA 1kg - Front.png";
+// import image2 from "../../images/our-product-img/our-product-2.png";
+import image2 from "../../images/our-product-img/Saburi Elaichy Tea 250g-Front.png";
 import image3 from "../../images/our-product-img/our-product-3.png";
 import image4 from "../../images/our-product-img/our-product-4.png";
-import image5 from "../../images/our-product-img/our-product-5.png";
+// import image5 from "../../images/our-product-img/our-product-5.png";
+import image5 from "../../images/our-product-img/masala chai 1kg front.png";
+import TEAYellowCup  from "../../images/our-product-img/SABURI YELLOW TEA Yellow Cup 250g - Front.png";
+import saburikadakchai from "../../images/our-product-img/saburi kadak chai 1kg front.png";
 import left_Leaf from "../../images/our-product-img/leaf_left.png";
 import Right_Leaf from "../../images/our-product-img/leaf_right.png";
 
@@ -13,39 +18,53 @@ function Tales_of_tea() {
     {
       src: image2,
       message:
-        "Exquisite teas, .Exquisite teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Elaichi chai is a fragrant tea flavored with cardamom and spices like ginger, cinnamon, and offering a warm and soothing drink.",
       name: "Elaichi Chai",
     },
     {
       src: image1,
       message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Gold chai is a luxurious tea with turmeric for a golden color. It combines ginger, cinnamon and cardamom for a warm, flavorful drink.",
       name: "Gold Chai",
     },
     {
       src: image5,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Masala chai is a spiced tea with black tea, milk, and aromatic spices like cinnamon, cardamom, ginger, and cloves, known for its rich, warming flavor.",
       name: "Masala Chai",
     },
     {
       src: image4,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Premium chai features high-quality tea leaves and a refined spice blend for a richer, offering a sophisticated tea experience.",
       name: "Premium Chai",
     },
     {
       src: image3,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Super chai is a boosted version of traditional chai with added superfoods or adaptogens, offering a robust flavor and benefits for energy and wellness.",
       name: "Super Chai",
+    },
+
+    {
+      src: TEAYellowCup,
+      message:
+        "Yellow chai is a vibrant tea infused with turmeric, giving it a distinctive yellow color.It combines traditional chai spices with a added health benefits.",
+      name: "Yellow Cup Chai",
+    },
+
+    {
+      src: saburikadakchai,
+      message:
+        "Kadak chai is a strong, robust tea made by brewing black tea leaves with spices and milk for a rich. It’s known for its bold taste.",
+      name: "Kadak Chai",
     },
   ];
   const images = [
     {
       src: image1,
       message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Gold chai is a luxurious tea with turmeric for a golden color. It combines ginger, cinnamon and cardamom for a warm, flavorful drink.",
       name: "Gold Chai",
     },
   ];
@@ -53,13 +72,13 @@ function Tales_of_tea() {
     {
       src: image2,
       message:
-        "Exquisite teas, .Exquisite teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Elaichi chai is a fragrant tea flavored with cardamom and spices like ginger, cinnamon, and offering a warm and soothing drink.",
       name: "Elaichi Chai",
     },
     {
       src: image5,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Masala chai is a spiced tea with black tea, milk, and aromatic spices like cinnamon, cardamom, ginger, and cloves, known for its rich, warming flavor.",
       name: "Masala Chai",
     },
   ];
@@ -67,14 +86,27 @@ function Tales_of_tea() {
     {
       src: image4,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Premium chai features high-quality tea leaves and a refined spice blend for a richer, offering a sophisticated tea experience.",
       name: "Premium Chai",
     },
     {
       src: image3,
       message:
-        "Exquisite teas, exceptional flavors. Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Super chai is a boosted version of traditional chai with added superfoods or adaptogens, offering a robust flavor and benefits for energy and wellness.",
       name: "Super Chai",
+    },
+    {
+      src: TEAYellowCup,
+      message:
+        "Yellow chai is a vibrant tea infused with turmeric, giving it a distinctive yellow color.It combines traditional chai spices with a added health benefits.",
+      name: "Yellow Cup Chai",
+    },
+
+    {
+      src: saburikadakchai,
+      message:
+        "Kadak chai is a strong, robust tea made by brewing black tea leaves with spices and milk for a rich. It’s known for its bold taste.",
+      name: "Kadak Chai",
     },
   ];
   return (

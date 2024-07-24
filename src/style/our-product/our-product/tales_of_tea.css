@@ -63,6 +63,7 @@
   width: 100px;
   height: auto;
   text-align: center;
+  max-height: 150px;
 }
 
 .tales_of_tea_image_div {

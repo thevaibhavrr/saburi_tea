@@ -1,25 +1,37 @@
 import React from "react";
 import "../../style/our-product/our-product/tales_of_tea.css";
 import image11 from "../../images/our-product-img/chunks 1.png";
+import SaburiMackroni from "../../images/our-product-img/Saburi Mackroni Rs 10-Front.png";
 import left_chunk from "../../images/our-product-img/chunk_left.png";
 import Right_chunk from "../../images/our-product-img/chunk_right.png";
+
 
 function SoyaChunk() {
   const AllImages = [
     {
       src: image11,
       message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Soya chunks are protein-rich, textured soybean products often used as a meat substitute. They absorb flavors are popular in vegetarian.",
       name: "Soya Chunks",
     },
+    {
+      src: SaburiMackroni,
+      message:"Macaroni is a type of short, curved pasta that is typically used in dishes like macaroni. Its smooth texture makes it ideal for holding sauces and ingredients.",
+      name: "Mackroni",
+    }
   ];
   const images = [
     {
       src: image11,
       message:
-        "Exquisite teas, exceptional  teas, Saburi elevates my tea experience. Quality, taste, and packaging, all perfect!",
+        "Soya chunks are protein-rich, textured soybean products often used as a meat substitute. They absorb flavors are popular in vegetarian.",
       name: "Soya Chunks",
     },
+    {
+      src: SaburiMackroni,
+      message:"Macaroni is a type of short, curved pasta that is typically used in dishes like macaroni. Its smooth texture makes it ideal for holding sauces and ingredients.",
+      name: "Mackroni",
+    }
   ];
   return (
     <>
